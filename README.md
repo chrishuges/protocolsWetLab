@@ -6,11 +6,13 @@ Descriptive protocols for different types of wet-lab experiments. PDF versions o
 
 - [Related to proteomics](https://github.com/chrishuges/wetLabProtocols/tree/master/relatedToProteomics)
   - [Media preparation for SILAC](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/silacMetabolicLabelingCultureMediaPreparation.md)
+  - [Preparation of BSA chromatography and MS standard](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/preparationOfBsaStandardForMassSpectrometry.md)
   - [SP3 protein clean-up](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/sp3ProteinCleanup.md)
   - [TMT labeling of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/tandemMassTagLabelingOfPeptides.md)
   - [TopTip desalting of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/topTipPeptideCleanup.md)
   - [Total proteome analysis by mass spectrometry](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/totalProteomeAnalysisByMassSpectrometry.md)
 - [Related to Next Generation Sequencing](https://github.com/chrishuges/wetLabProtocols/tree/master/relatedToNextGenSequencing)
+  - [Preparing homemade SPRI/Ampure beads](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/preparingSpriBeads.md)
   - [RNA profiling from total polysomes](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/polysomeProfilingRna.md)
 - [Troubleshooting](#troubleshooting)
 
