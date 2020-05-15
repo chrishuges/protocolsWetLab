@@ -40,14 +40,14 @@ This protocol describes clean-up of peptide samples using C18 TopTips prior to d
 Prior to processing, ensure that your sample contains less than 5% (v/v) of acetonitrile or other similar solvents, otherwise your sample will not bind efficiently. It is generally a good idea to not let the bead bed dry out during processing, so when pushing liquids through the tip, try to stop just above the bead bed. In all of the below steps, liquid is being pushed through the TopTip using the plunger device provided with the TopTips by the manufacturer.
 
 1. Using a pipette, add 600uL of Buffer A to the TopTip and elute the added liquid to the waste at a flow rate of 1 drop per second (see [**Note 1**](#note1)).
-2. Repeat **Step 1** one additional time for a total of 2 rinses.
+2. Repeat the previous step one additional time for a total of 2 rinses.
 3. Add 600uL of Buffer B to the TopTip and elute to waste as above.
-4. Repeat **Step 3** one additional time for a total of 2 rinses.
+4. Repeat the previous step one additional time for a total of 2 rinses.
 5. Add the peptide sample to the TopTip and elute to waste as above.
 6. Rinse the loaded TopTip with 600uL of Rinse Buffer.
-7. Repeat **Step 6** two additional times for a total of 3 rinses.
+7. Repeat the previous step two additional times for a total of 3 rinses.
 8. Elute the peptides with 600uL of the Elution Buffer into a fresh 1.5mL tube.
-9. Repeat **Step 8** one additional time.
+9. Repeat the previous step one additional time for a total of 2 elutions.
 10. Concentrate the sample by evaporation (see [**Note 2**](#note2)).
 
 <hr style="height:6pt; visibility:hidden;" />
