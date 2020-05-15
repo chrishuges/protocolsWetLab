@@ -39,6 +39,7 @@ This document describes an end-to-end protocol for quantitative whole-proteome a
 - [8. Data processing](#8-data-processing)
   - [8.1 Software tools](#81-software-tools)
   - [8.2 Protocol](#82-protocol)
+  - [8.3 Example shell script for data analysis](#83-example-shell-script-for-data-analysis)
 - [Notes](#notes)
 
 <hr style="height:6pt; visibility:hidden;" />
@@ -539,7 +540,7 @@ We like to use a direct on-column setup on our nanoLC system prior to the MS. Ou
 
 ## 8. Data processing
 
-Data processing can take many shapes depending on what you have done or what you have available, or what type of computation tools you are comfortable with. The pipeline detailed below is the one that I use and find the give accurate and reproducible data. It is also free. The shell script referenced below will execute all of these processed with a single command. This protocol assumes you are using the command line on a linux server. I apologize for having the code not in 'code blocks', but I haven't figured out how to make long lines wrap in these blocks as of the latest revisions of this document.
+Data processing can take many shapes depending on what you have done or what you have available, or what type of computation tools you are comfortable with. The pipeline detailed below is the one that I use and find the give accurate and reproducible data. It is also free. The shell script referenced below will execute all of these processed with a single command. This protocol assumes you are using the command line on a linux server.
 
 <span id="81-software-tools"></span>
 
@@ -553,31 +554,236 @@ Data processing can take many shapes depending on what you have done or what you
 
 ### 8.2 Protocol
 
-1. Download RawTools, SearchGUI, and PeptideShaker to a directory on the server and remember the location, (you can use `wget` to download those programs to the linux server).
-   1. $ mkdir software
-   2. $ cd software
-   3. $ wget https://github.com/kevinkovalchik/RawTools/releases/download/2.0.2/RawTools-2.0.2.zip
-   4. $ wget http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.16/SearchGUI-3.3.16-mac_and_linux.tar.gz
-   5. $ wget http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.42/PeptideShaker-1.16.42.zip
-2. Extract the files.
-   1. $ unzip RawTools-2.0.2.zip
-   2. $ gunzip SearchGUI-3.3.16-mac_and_linux.tar.gz
-   3. $ tar -xvf SearchGUI-3.3.16-mac_and_linux.tar
-   4. $ unzip PeptideShaker-1.16.42.zip
-3. Create the shell script file.
-   1. $ touch tmt-data-processing.sh
-   2. $ chmod +x tmt-data-processing.sh
-4. Copy the text in the text file called 'ms2TmtDataProcessing.txt in this protocols directory and paste it into your created shell script file.
-   1. $ vim tmt-data-processing.sh
-   2. Press 'i' to make edits to the file. Paste the text. Press 'Esc'. Type ':wq' and hit Enter.
-5. Open the shell script again and edit the paths to suite your system.
-   1. $ pwd
-   2. Copy the output of that command.
-   3. $ vim tmt-data-processing.sh
-   4. The specific variables that need to be changed are: sample_tag, desired_base_location, and data_storage_location.
-   5. You may also want to edit the parameters for different tools if you have not done an MS2 only analysis, or you are not using a human sample.
-6. Run the script and output a log file called data-processing.txt.
-   1. $ ./tmt-data-processing.sh |& tee data-processing.txt
+Download RawTools, SearchGUI, and PeptideShaker to a directory on the server and remember the location, (you can use `wget` to download those programs to the linux server).
+
+```
+$ mkdir software
+$ cd software
+$ wget https://github.com/kevinkovalchik/RawTools/releases/download/2.0.2/RawTools-2.0.2.zip
+$ wget http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.16/SearchGUI-3.3.16-mac_and_linux.tar.gz
+$ wget http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.42/PeptideShaker-1.16.42.zip
+```
+
+Extract the files.
+
+```
+$ unzip RawTools-2.0.2.zip
+$ gunzip SearchGUI-3.3.16-mac_and_linux.tar.gz
+$ tar -xvf SearchGUI-3.3.16-mac_and_linux.tar
+$ unzip PeptideShaker-1.16.42.zip
+```
+
+Create the shell script file.
+
+```
+$ touch tmt-data-processing.sh
+$ chmod +x tmt-data-processing.sh
+```
+
+Copy the text in the text file called 'ms2TmtDataProcessing.txt in this protocols directory and paste it into your created shell script file.
+
+```
+$ vim tmt-data-processing.sh
+Press 'i' to make edits to the file. Paste the text. Press 'Esc'. Type ':wq' and hit Enter.
+```
+
+Open the shell script again and edit the paths to suite your system.
+
+```
+$ pwd
+Copy the output of that command.
+$ vim tmt-data-processing.sh
+The specific variables that need to be changed are: sample_tag, desired_base_location, and data_storage_location.
+You may also want to edit the parameters for different tools if you have not done an MS2 only analysis, or you are not using a human sample.
+```
+
+Run the script and output a log file called data-processing.txt.
+
+```
+$ ./tmt-data-processing.sh |& tee data-processing.txt
+```
+
+### 8.3 Example shell script for data analysis
+
+This script is purely for example purposes and is designed to work in my own environment. You will need to modify paths to data and software tools for this to work on your own system.
+
+```
+#! /bin/bash
+
+##############################################################
+#this first part calls the help if the user triggers it
+usage(){
+printf "
+This script will process proteomic data to generate PeptideShaker Reports.\n
+The sample tag and desired base location parameters should be edited before running the script.\n
+All results will be written to the folder created based on the sample tag and base location.\n\n"
+}
+
+if [[ $1 == -h ]] || [[ $1 == --help ]];
+then
+  usage
+  exit
+fi
+
+
+##############################################################
+##############################################################
+#users must edit the below variables
+
+#this is the text that will identify your files
+sample_tag="some text that will identify your raw file names"
+
+#this is the desired location for the output of the data processing process
+desired_base_location="/path/to/where/you/want/the/processed/data/to/be/stored/"
+
+#this is the base location where your raw data is stored
+data_storage_location="/path/to/where/the/raw/data/is/stored/"
+
+#this is text that will be appended to your output folder that is created for this analysis
+folder_adapter="ms-analysis_"
+
+#users do not need to edit the statement below
+folder_to_create="$desired_base_location$folder_adapter$sample_tag"
+
+
+
+##############################################################
+##############################################################
+#locations of software tools
+crap_database="/path/to/contaminants/database.fasta"
+rawtools_location="/path/to/RawTools.exe"
+searchGUI_location="/path/to/SearchGUI-X.X.XX.jar"
+peptideshaker_location="/path/to/PeptideShaker-X.XX.XX.jar"
+
+
+
+##############################################################
+##############################################################
+####first we need to make the location for the data storage
+making_a_dir="mkdir $folder_to_create"
+
+#check if directory does not exist and create it if it doesn't
+if [ ! -d "$folder_to_create" ];
+then
+  printf "Creating the processing directory.\n"
+  eval $making_a_dir
+fi
+
+#move into the processing directory
+eval "cd $folder_to_create"
+printf "\nData processing proceeding in the directory: $PWD\n\n"
+
+
+
+##############################################################
+##############################################################
+####set up the database to use
+uniprot_version=$( date +%b%Y )
+database_extension="_concatenated_target_decoy"
+
+#check if the database exists, and if not, get it
+if [ ! -f "./uniprot-human-crap_$uniprot_version$database_extension.fasta" ]; then
+    printf "Database not found!\n\n"
+    eval "wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640_9606.fasta.gz"
+    eval "gunzip UP000005640_9606.fasta.gz"
+    eval "mv UP000005640_9606.fasta ./uniprot-human_$uniprot_version.fasta"
+    eval "cat ./uniprot-human_$uniprot_version.fasta $crap_database > ./uniprot-human-crap_$uniprot_version.fasta"
+    eval "java -cp $searchGUI_location eu.isas.searchgui.cmd.FastaCLI -in ./uniprot-human-crap_$uniprot_version.fasta -decoy"
+    printf "Database created and ready to use.\n\n"
+else
+  printf "\nDatabase file exists: ./uniprot-human-crap_$uniprot_version$database_extension.fasta\n\n"
+fi
+
+
+
+##############################################################
+##############################################################
+####set up the parameters file
+fixed_modifications='"Carbamidomethylation of C, TMT 11-plex of peptide N-term"'
+variable_modifications='"Oxidation of M, TMT 11-plex of K"'
+
+#####call the parameters file creation
+calling_parameters='java -cp "$searchGUI_location" eu.isas.searchgui.cmd.IdentificationParametersCLI -out ./OT-MS1_HCD-OT-MS2_human-trypsin_stdMods-TMT_"$uniprot_version".par -db ./uniprot-human-crap_"$uniprot_version""$database_extension".fasta -prec_tol 20 -frag_tol 0.05 -db_pi ./uniprot-human-crap_"$uniprot_version""$database_extension".fasta -fixed_mods "$fixed_modifications" -variable_mods "$variable_modifications"'
+
+####call the command
+if [ ! -f "./OT-MS1_HCD-OT-MS2_human-trypsin_stdMods-TMT_$uniprot_version.par" ]; then
+  printf "\nParameters file does not exist. Creating it.\n\n"
+  eval "$calling_parameters"
+else
+  printf "Parameters file exists: OT-MS1_HCD-OT-MS2_human-trypsin_stdMods-TMT_$uniprot_version.par.\n\n"
+fi
+
+
+
+##############################################################
+##############################################################
+####run rawtools to get MGF files
+##first find the raw files you want to process
+file_list=()
+  while IFS= read -d $'\0' -r file ; do
+    file_list=("${file_list[@]}" "$file")
+  done < <(find $data_storage_location -name "*$sample_tag*" -print0 | sort -z)
+
+###now execute rawtools on each of these
+for i in "${file_list[@]}"; do
+  sample_id=$(basename "$i" ".raw")
+  if [ -f "$sample_id.raw.mgf" ]; then
+    printf "MGF output for $sample_id already exists, skipping file.\n\n"
+  else
+    rawtools_execution="mono $rawtools_location -f $i -quxmR -o $PWD -r TMT11"
+    eval $rawtools_execution
+  fi
+done
+
+
+##############################################################
+##############################################################
+####run the searchGUI analysis
+file_list=()
+  while IFS= read -d $'\0' -r file ; do
+    file_list=("${file_list[@]}" "$file")
+  done < <(find $PWD -name "*.mgf" -print0 | sort -z)
+
+###now execute on each of these
+for i in "${file_list[@]}"; do
+  if [ -f "${i::-4}_searchgui_out.zip" ]; then
+    sample_id=$(basename "$i" ".zip")
+    printf "Search output for $sample_id already exists, skipping file.\n\n"
+  else
+    searchgui_execution="java -Xmx120g -cp $searchGUI_location eu.isas.searchgui.cmd.SearchCLI -spectrum_files $i -output_folder $PWD -id_params ./OT-MS1_HCD-OT-MS2_human-trypsin_stdMods-TMT_$uniprot_version.par -output_option 1 -xtandem 1"
+    eval $searchgui_execution
+  fi
+done
+
+
+##############################################################
+##############################################################
+####write the reports
+file_list=()
+  while IFS= read -d $'\0' -r file ; do
+    file_list=("${file_list[@]}" "$file")
+  done < <(find $PWD -name "*.zip" -print0 | sort -z)
+
+###now execute on each of these
+for i in "${file_list[@]}"; do
+  sample_id=$(basename "$i" ".zip")
+  while ! [ -f "${PWD}/n_${sample_id}_1_Default_PSM_Report.txt" ]; do
+    printf "\nNo peptide shaker reports output exists for $sample_id, so it will be created.\n"
+    #peptide shaker execution
+    peptideshaker_execution="java -Xmx120g -cp $peptideshaker_location eu.isas.peptideshaker.cmd.PeptideShakerCLI -experiment n -sample $sample_id -replicate 1 -identification_files $i -spectrum_files $PWD -id_params ./OT-MS1_HCD-OT-MS2_human-trypsin_stdMods-TMT_$uniprot_version.par -out $i.out.cpsx"
+    eval $peptideshaker_execution
+    #reports output
+    reports_execution="java -Xmx120g -cp $peptideshaker_location eu.isas.peptideshaker.cmd.ReportCLI -in $i.out.cpsx -out_reports $PWD -reports 0,3"
+    eval $reports_execution
+  done
+  printf "\nFinished all exporting reports for $sample_id.\n\n"
+done
+
+####final output
+eval "rm *.html"
+eval "scp /path/to/where/this/script/is/stored/data-processing.txt $PWD"
+printf "\n\nFinished processing a total of ${#file_list[@]} files!\n\n"
+```
 
 <hr style="height:6pt; visibility:hidden;" />
 
