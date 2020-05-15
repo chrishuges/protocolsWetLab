@@ -348,7 +348,7 @@ First, labeled TMT peptide mixtures need to be concentrated to reduce the levels
 27. Add the frozen samples to the lyophilizer and turn on the vaccuum. Leave overnight, or for about 12-hours.
 28. Once the fractions have reached dryness, add 20uL of the 1% formic acid, 1% DMSO solution. Do not try to pipette mix.
 29. Vortex the tubes for 10-seconds and then centrifuge for 2-minutes at 12,000g.
-30. Repeat **Step 29** one additional time.
+30. Repeat the previous step one additional time.
 31. Samples can be frozen at this stage at -80C indefinitely.
 
 <hr style="height:6pt; visibility:hidden;" />
