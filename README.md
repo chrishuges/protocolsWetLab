@@ -13,6 +13,7 @@ Descriptive protocols for different types of wet-lab experiments. PDF versions o
   - [SP3 protein clean-up](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/sp3ProteinCleanup.md)
   - [TMT labeling of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/tandemMassTagLabelingOfPeptides.md)
   - [TopTip desalting of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/topTipPeptideCleanup.md)
+  - [SlitPlate desalting of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/slitPlatePeptideCleanup.md)
   - [Packing nanospray chromatography columns](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/packingNanosprayChromatographyColumns.md)
   - [Total proteome analysis by mass spectrometry](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/totalProteomeAnalysisByMassSpectrometry.md)
 - [Related to Next Generation Sequencing](https://github.com/chrishuges/wetLabProtocols/tree/master/relatedToNextGenSequencing)
