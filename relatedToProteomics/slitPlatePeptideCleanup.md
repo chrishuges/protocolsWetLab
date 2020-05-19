@@ -15,6 +15,8 @@ This protocol describes clean-up of peptide samples using C18 SlitPlates prior t
 
 <hr style="height:6pt; visibility:hidden;" />
 
+<span id="reagents-and-materials"></span>
+
 ## Reagents and materials
 
 - C18 SlitPlates (CAT#S2C18, Glygen Corp.)
@@ -25,12 +27,16 @@ This protocol describes clean-up of peptide samples using C18 SlitPlates prior t
 - 1.5mL snap-lock tubes (CAT#05-402-25, Thermo Scientific)
 - Benchtop centrifuge with plate-holder rotor (multiple vendors)
 
+<span id="solution-recipes"></span>
+
 ## Solution recipes
 
 - Buffer A - 0.1% trifluoroacetic acid (TFA) in acetonitrile
 - Buffer B - 0.1% TFA in water
 - Rinse buffer - 0.1% formic acid in water
 - Elution buffer - 0.1% formic acid in 60% acetonitrile
+
+<span id="protocol"></span>
 
 ## Protocol
 
@@ -48,6 +54,8 @@ Prior to processing, ensure that your sample contains less than 5% (v/v) of acet
 10. Concentrate the sample by evaporation (see [**Note 3**](#note3)).
 
 <hr style="height:6pt; visibility:hidden;" />
+
+<span id="notes"></span>
 
 ## Notes
 

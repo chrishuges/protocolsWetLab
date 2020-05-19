@@ -35,8 +35,6 @@ You should choose which labeling schemes you would like to apply and order reage
 - Proline (Sigma, CAT#P5607)
 - Nalgene Rapid-Flow filter units, 500mL, 0.2um filter (VWR, CAT#73520-984)
 
-<hr style="height:6pt; visibility:hidden;" />
-
 <span id="solution-recipes"></span>
 
 ## Solution recipes
@@ -46,8 +44,6 @@ You should choose which labeling schemes you would like to apply and order reage
 - proline (500X stock) - 1g powder in 10mL of water
 
 The amino acid stocks should be aliquoted (1mL each) and stored at -20C until use.
-
-<hr style="height:6pt; visibility:hidden;" />
 
 <span id="protocol"></span>
 

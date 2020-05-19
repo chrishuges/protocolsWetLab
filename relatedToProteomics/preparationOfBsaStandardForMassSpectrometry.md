@@ -20,6 +20,7 @@ This protocol describes a protocol for preparing a bovine serum albumin (BSA) pr
 ## Reagents and materials
 
 - 1.5mL or 2.0mL Safe-Lock tubes (Fisher Scientific, CAT#05-402-25 or CAT#05-402-7)
+- Bovine serum albumin, fraction V (Sigma, CAT#A2153)
 - 1M HEPES pH 7.3 (Thermo Scientific, CAT#BP299)
 - Guanidine hydrochloride (Sigma, CAT#G3272)
 - Dithiothreitol (Bio-Rad, CAT#1610611)
