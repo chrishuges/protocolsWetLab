@@ -74,7 +74,7 @@ This protocol assumes you have your cells growing in 15cm dishes. For other dish
 4. To the 'PBS' 50mL tube, add 5mL of DPBS per sample you plan to harvest.
 5. Remove the cell plate from the incubator and pipette the media the cells are growing in into the 50mL tube labeled 'Media'.
 6. Carefully add 10mL of room temperature (+21C) DPBS to the plate, swirl, and discard the DPBS rinse to the waste.
-7. Carefully add 5mL of room temperature DPBS to the plate and place on an ice block with some water on top in the Stratalinker (make sure the plate is flat). Crosslink at 200mJ/cm2 (see [**Note 1**]).
+7. Carefully add 5mL of room temperature DPBS to the plate and place on an ice block with some water on top in the Stratalinker (make sure the plate is flat). Crosslink at 200mJ/cm2 (see [**Note 1**](#note1)).
 8. Remove the DPBS and add 8mL of TrypLE express to the plate and place back into the incubator.
 9. Once the cells have started to detach, remove the plate from the incubator.
 10. With 4mL of media from the 'Media' tube, rinse and collect the detached cells and transfer to the appropriate 15mL tube.
@@ -227,19 +227,19 @@ Read this protocol before starting to make sure you are prepared for the steps a
    1. Wash 125uL of protein A/G beads with 500uL of Rinse buffer A in a 2mL tube. Discard the supernatant.
    2. Repeat the previous step two more times for a total of 3 rinses.
    3. Reconstitute the washed beads in 125uL of Rinse buffer A and transfer 25uL of this to a fresh 2mL tube (set this tube aside on ice).
-   4. Add 10ug of your target antibody to the remaining 100uL of beads in Rinse buffer A. Rotate slowly at room temperature for 1-hour (see [**Note 2**]).
-   5. Rinse the conjugated beads twice with 500uL of Rinse buffer B (with BSA) (see [**Note 3**]).
+   4. Add 10ug of your target antibody to the remaining 100uL of beads in Rinse buffer A. Rotate slowly at room temperature for 1-hour (see [**Note 2**](#note2)).
+   5. Rinse the conjugated beads twice with 500uL of Rinse buffer B (with BSA) (see [**Note 3**](#note3)).
    6. Rinse the conjugated beads three times with Rinse buffer A.
    7. Reconstitute the beads in 100uL of Rinse buffer A until use. Keep on ice.
 2. Prepare your lysate and perform IP:
    1. Slowly thaw cell pellet at room temperature until a small amount of frozen material remains.
    2. Add 500uL of Lysis buffer to the pellet and pipette mix. Incubate on ice for 5-minutes.
    3. Transfer the lysate to a Lysing matrix Y tube and disrupt on a FastPrep (6M/s, 45 seconds, 1 cycle).
-   4. Centrifuge the lysate at 12,000g for 5-minutes and recover the supernatant to a fresh 2mL tube (see [**Note 4**]).
+   4. Centrifuge the lysate at 12,000g for 5-minutes and recover the supernatant to a fresh 2mL tube (see [**Note 4**](#note4)).
    5. Take 5uL of the lysate and dilute to 50uL with water in a fresh 1.5mL tube.
    6. Measure the RNA concentration of 5uL of this diluted sample using the Qubit RNA assay. Calculate the RNA concentration in the original sample.
    7. Transfer a volume equivalent to 20ug of RNA to a fresh 2mL tube and bring to 400uL total volume with Lysis buffer.
-   8. Add 1 Unit of RNase 1 per 10ug of measured RNA in the sample (4uL of Diluted RNase 1 for 20ug sample). Pipette mix and incubate at +37C for 5-minutes (see [**Note 5**]).
+   8. Add 1 Unit of RNase 1 per 10ug of measured RNA in the sample (4uL of Diluted RNase 1 for 20ug sample). Pipette mix and incubate at +37C for 5-minutes (see [**Note 5**](#note5)).
    9. Transfer the supernatant to the tube containing 25uL of rinsed protein A/G beads prepared above. Incubate with slow rotation at +4C for 30-minutes.
    10. Recover the supernatant lysate and combine with the 100uL of conjugated beads prepared above. Incubate with slow rotation at +4C for 2-hours (see [**Note 6**]).
    11. Recover 10uL (2%) of the lysate-bead mix to a fresh 2mL tube (**SampleInput**) and another 10uL to a different 2mL tube (**ImagingInput**). Bring the volume of each to 20uL with Lysis buffer.
