@@ -234,14 +234,14 @@ Read this protocol before starting to make sure you are prepared for the steps a
 2. Prepare your lysate and perform IP:
    1. Slowly thaw cell pellet at room temperature until a small amount of frozen material remains.
    2. Add 500uL of Lysis buffer to the pellet and pipette mix. Incubate on ice for 5-minutes.
-   3. Transfer the lysate to a Lysing matrix Y tube and disrupt on a FastPrep (6M/s, 45 seconds, 1 cycle).
-   4. Centrifuge the lysate at 12,000g for 5-minutes and recover the supernatant to a fresh 2mL tube (see [**Note 4**](#note4)).
+   3. Transfer the lysate to a Lysing matrix Y tube and disrupt on a FastPrep (6M/s, 45 seconds, 1 cycle) (see [**Note 4**](#note4)).
+   4. Centrifuge the lysate at 12,000g for 5-minutes and recover the supernatant to a fresh 2mL tube (see [**Note 5**](#note5)).
    5. Take 5uL of the lysate and dilute to 50uL with water in a fresh 1.5mL tube.
    6. Measure the RNA concentration of 5uL of this diluted sample using the Qubit RNA assay. Calculate the RNA concentration in the original sample.
    7. Transfer a volume equivalent to 20ug of RNA to a fresh 2mL tube and bring to 400uL total volume with Lysis buffer.
-   8. Add 1 Unit of RNase 1 per 10ug of measured RNA in the sample (4uL of Diluted RNase 1 for 20ug sample). Pipette mix and incubate at +37C for 5-minutes (see [**Note 5**](#note5)).
+   8. Add 1 Unit of RNase 1 per 10ug of measured RNA in the sample (4uL of Diluted RNase 1 for 20ug sample). Pipette mix and incubate at +37C for 5-minutes (see [**Note 6**](#note6)).
    9. Transfer the supernatant to the tube containing 25uL of rinsed protein A/G beads prepared above. Incubate with slow rotation at +4C for 30-minutes.
-   10. Recover the supernatant lysate and combine with the 100uL of conjugated beads prepared above. Incubate with slow rotation at +4C for 2-hours (see [**Note 6**](#note6)).
+   10. Recover the supernatant lysate and combine with the 100uL of conjugated beads prepared above. Incubate with slow rotation at +4C for 2-hours (see [**Note 7**](#note7)).
    11. Recover 10uL (2%) of the lysate-bead mix to a fresh 2mL tube (**SampleInput**) and another 10uL to a different 2mL tube (**ImagingInput**). Bring the volume of each to 20uL with Lysis buffer.
    12. Preheat the ThermoMixer to +70C.
    13. To the Input samples, add 8uL of NuPAGE LDS Sample Buffer (4X) and 4uL of 1M DTT and pipette mix.
@@ -740,15 +740,19 @@ The starting point for this stage of the protocol is the 25uL purified cDNA samp
 
 <span id="note4"></span>
 
-**Note 4** - To recover more of the liquid here, you can use a small needle that is heated in a bunsen burner flame to poke a hole in the bottom of the bead-containing tube. Insert the tube with the hole into a standard 2mL tube and spin at 50g to draw the liquid through the hole into the 2mL tube. Alternatively, you can just sonicate here.
+**Note 4** - As written, this protocol will also isolate RNA from nuclei. If you wish to only look at cytoplasmic RNA, simply exclude SDS from the Lysis buffer and skip this mechanical disruption step. Reduce the speed of the debris centrifugation step (the next step) from 12,000g to 5,000g. The pellet will contain nuclei. The mechanical disruption step can be excluded entirely if desired, as most RNA should leak out of the nucleus in the presence of 0.1% SDS.
 
 <span id="note5"></span>
 
-**Note 5** - The RNase 1 concentration here is very important. Generally, you want the amount of RNase you are adding to each of your samples to be equal based on how much RNA they have. I find it is best to normalize the lysate concentrations and go from there. I have seen it suggested to use Nanodrop assays here, but this is risky because it is so inaccurate and prone to interference, especially when working with a whole-cell lysate. A BCA assay would theoretically be ok, but it doesn't tell us anything about the RNA amount in the sample, which could change in certain conditions independent of protein levels. Instead of relying on a 'dilution ratio' like so many studies, I like to provide an exact number of Units of RNase to add based on how much RNA we have in each sample.
+**Note 5** - To recover more of the liquid here, you can use a small needle that is heated in a bunsen burner flame to poke a hole in the bottom of the bead-containing tube. Insert the tube with the hole into a standard 2mL tube and spin at 50g to draw the liquid through the hole into the 2mL tube. Alternatively, you can just sonicate here.
 
 <span id="note6"></span>
 
-**Note 6** - Important to remember that RNase 1 still has activity at +4C, so be mindful of how long your incubation time is here and do not vary it between samples that are to be directly compared.
+**Note 6** - The RNase 1 concentration here is very important. Generally, you want the amount of RNase you are adding to each of your samples to be equal based on how much RNA they have. I find it is best to normalize the lysate concentrations and go from there. I have seen it suggested to use Nanodrop assays here, but this is risky because it is so inaccurate and prone to interference, especially when working with a whole-cell lysate. A BCA assay would theoretically be ok, but it doesn't tell us anything about the RNA amount in the sample, which could change in certain conditions independent of protein levels. Instead of relying on a 'dilution ratio' like so many studies, I like to provide an exact number of Units of RNase to add based on how much RNA we have in each sample.
+
+<span id="note7"></span>
+
+**Note 7** - Important to remember that RNase 1 still has activity at +4C, so be mindful of how long your incubation time is here and do not vary it between samples that are to be directly compared.
 
 <hr style="height:6pt; visibility:hidden;" />
 
