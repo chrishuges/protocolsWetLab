@@ -2,7 +2,7 @@
 
 This protocol was last updated - May 18, 2020 by Chris Hughes.
 
-This document describes a protocol for preparing performing an analysis of RNA binding protein (RBP) interaction sites on RNA. This protocol is based on the single-end, monitored eCLIP, and irCLIP2 protocols described previously (PMID: 28766298, 30252095, 31610236). Compared to these protocols, I use modifications at various steps during processing, as well as in the sequencing adapter configuration. Libraries made with this protocol can be sequenced on Illumina platforms, such as NextSeq, using single- or paired-end reads.
+This document describes a protocol for preparing performing an analysis of RNA binding protein (RBP) interaction sites on RNA. This protocol is based on the single-end, monitored eCLIP, and irCLIP2 protocols described previously (PMID: 28766298, 30252095, 31610236). Compared to these protocols, I use modifications at various steps during processing, as well as in the sequencing adapter configuration. Libraries made with this protocol can be sequenced on Illumina platforms, such as NextSeq, using single- or paired-end reads. The UMI strategy used is based on PMID: 30001700.
 
 <hr style="height:6pt; visibility:hidden;" />
 
@@ -241,7 +241,7 @@ Read this protocol before starting to make sure you are prepared for the steps a
    7. Transfer a volume equivalent to 20ug of RNA to a fresh 2mL tube and bring to 400uL total volume with Lysis buffer.
    8. Add 1 Unit of RNase 1 per 10ug of measured RNA in the sample (4uL of Diluted RNase 1 for 20ug sample). Pipette mix and incubate at +37C for 5-minutes (see [**Note 5**](#note5)).
    9. Transfer the supernatant to the tube containing 25uL of rinsed protein A/G beads prepared above. Incubate with slow rotation at +4C for 30-minutes.
-   10. Recover the supernatant lysate and combine with the 100uL of conjugated beads prepared above. Incubate with slow rotation at +4C for 2-hours (see [**Note 6**]).
+   10. Recover the supernatant lysate and combine with the 100uL of conjugated beads prepared above. Incubate with slow rotation at +4C for 2-hours (see [**Note 6**](#note6)).
    11. Recover 10uL (2%) of the lysate-bead mix to a fresh 2mL tube (**SampleInput**) and another 10uL to a different 2mL tube (**ImagingInput**). Bring the volume of each to 20uL with Lysis buffer.
    12. Preheat the ThermoMixer to +70C.
    13. To the Input samples, add 8uL of NuPAGE LDS Sample Buffer (4X) and 4uL of 1M DTT and pipette mix.
