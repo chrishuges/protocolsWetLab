@@ -20,6 +20,7 @@ Descriptive protocols for different types of wet-lab experiments. PDF versions o
 - [Related to Next Generation Sequencing](https://github.com/chrishuges/wetLabProtocols/tree/master/relatedToNextGenSequencing)
   - [Preparing homemade SPRI/Ampure beads](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/preparingSpriBeads.md)
   - [RNA profiling from total polysomes](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/polysomeProfilingRna.md)
+  - [RBP interaction profiling with CLIP](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/meClipRbpInteractionProfiling.md)]
 - [Troubleshooting](#troubleshooting)
 
 <hr style="height:6pt; visibility:hidden;" />

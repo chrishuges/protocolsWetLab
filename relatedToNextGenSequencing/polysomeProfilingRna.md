@@ -2,7 +2,7 @@
 
 This protocol was last updated - May 10, 2020 by Chris Hughes.
 
-This protocol describes protocols for preparing polysomes in order to isolate RNA for downstream analysis. This protocol is designed to work with a cell pellet derived from a single 15-cm dish at approximately 75% confluency that would yield approximately 20 million cells. Scale based on the yield of your own cell line. This protocol can also be modified to be used for tissues (modify the lysis conditions to add some level of mechanical disruption of the tissue). I prefer to use a sucrose step gradient for this, but you could use a cushion if you prefer.
+This document describes protocols for preparing polysomes in order to isolate RNA for downstream analysis. This protocol is designed to work with a cell pellet derived from a single 15-cm dish at approximately 75% confluency that would yield approximately 20 million cells. Scale based on the yield of your own cell line. This protocol can also be modified to be used for tissues (modify the lysis conditions to add some level of mechanical disruption of the tissue). I prefer to use a sucrose step gradient for this, but you could use a cushion if you prefer.
 
 <hr style="height:6pt; visibility:hidden;" />
 
@@ -128,7 +128,7 @@ This protocol assumes you have your cells growing in 15cm dishes. For other dish
 2. Label a 50mL tube with 'TE', another with 'Media', and a last with 'PBS'.
 3. To the 'TE' 50mL tube, add 8mL of TrypLE express per sample you plan to harvest.
 4. To the 'PBS' 50mL tube, add 5mL of DPBS per sample you plan to harvest.
-5. Remove the cell plate from the incubator and ipette the media the cells are growing in into the 50mL tube labeled 'Media'.
+5. Remove the cell plate from the incubator and pipette the media the cells are growing in into the 50mL tube labeled 'Media'.
 6. Add 8mL of TrypLE express to the plate and place back into the incubator (see [**Note 3**](#note3)).
 7. Once the cells have started to detach, remove the plate from the incubator.
 8. With 4mL of media from the 'Media' tube, rinse and collect the detached cells and transfer to the appropriate 15mL tube.
@@ -168,6 +168,7 @@ Use only RNase-free reagents.
 - Deoxycholate (DOC) (Sigma, CAT#D6750)
 - cOmplete protease inhibitor tablets, EDTA free (Sigma, CAT#11836170001)
 - Dimethylsulfoxide (Sigma, CAT#D8418)
+- Sucrose (Thermo Scientific, CAT#15503022)
 - RNA clean water (Thermo Fisher, CAT#10977023)
 
 <span id="32-solution-recipes"></span>
@@ -178,20 +179,21 @@ Use only RNase-free reagents.
 - 0.5M MgCl2 - 5.08g in 50mL of water
 - 10% (v/v) NP-40 - 1mL in 9mL of water
 - 10% (w/v) DOC - 1g in 10mL of water
+- 50% (w/v) sucrose - 5g in 10mL of water (filter and keep at +4C)
 - 10X cOmplete protease inhibitor stock - 1 tablet in 1mL of water
 - 20mg/mL cycloheximide - 10mg in 500uL of DMSO
 - Lysis buffer (need 1mL per sample)
   - 20mM HEPES pH 7.3 (20uL of 1M stock)
   - 150mM KCl (37uL of 4M stock)
   - 5mM MgCl2 (10uL of 0.5M stock)
-  - 10% (w/v) sucrose (1g powder)
+  - 10% (w/v) sucrose (200uL of 50% stock)
   - 0.5% (v/v) NP-40 (50uL of 10% stock)
   - 0.5% (v/v) DOC (50uL of 10% stock)
   - 0.5X cOmplete protease inhibitor (50uL of 10X stock)
   - 20U/mL TURBO DNase (10uL of 2U/uL stock)
   - 50U/mL SUPERaseIn (2.5uL of 20U/uL stock)
   - 100ug/mL cycloheximide (5uL of 20mg/mL stock)
-  - water to 1mL (766uL of pre-chilled water)
+  - water to 1mL (466uL of pre-chilled water)
 
 <span id="33-protocol"></span>
 
