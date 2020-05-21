@@ -32,6 +32,7 @@ This document describes a protocol for preparing performing an analysis of RNA b
   - [5.3 Oligos](#53-oligos)
   - [5.4 Protocol](#54-protocol)
 - [Notes](#notes)
+- [Reagent list](#reagent-list)
 
 <hr style="height:6pt; visibility:hidden;" />
 
@@ -107,9 +108,9 @@ You should use an antibody that you have validated has good selectivity for your
 - 1M TrisCl pH 7.5 (Thermo Scientific, CAT#15567027)
 - 5M NaCl (Thermo Scientific, CAT#AM9760G)
 - 0.5M EDTA (Thermo Scientific, CAT#15575020)
-- NP-40 (Sigma, CAT#NP40)
+- NP-40 (Sigma, CAT#I8896) - NP-40 seems to no longer be available, so we use IGEPAL CA-630 as a substitute
 - Deoxycholate (DOC) (Sigma, CAT#D6750)
-- MgCl2 (Sigma, CAT#M8266)
+- 1M MgCl2 (Thermo Scientific, CAT#AM9530G)
 - cOmplete protease inhibitor tablets, EDTA free (Sigma, CAT#11836170001)
 - Qubit assay tubes (Thermo Scientific, CAT#Q32856)
 - Qubit RNA HS Assay Kit (Thermo Scientific, CAT#Q32852)
@@ -141,7 +142,6 @@ You should use an antibody that you have validated has good selectivity for your
 - 50% (w/v) PEG-8000 - 12.5g in 25mL of water
 - 0.2M of dithiothreitol (DTT) - 15mg in 500uL of water, prepare fresh and keep on ice
 - 1M of dithiothreitol (DTT) - 75mg in 500uL of water, prepare fresh and keep on ice
-- 0.5M MgCl2 - 5.08g in 50mL of water
 - Diluted RNase 1 - 5uL of 100U/uL stock in 1mL of water (now 0.5U/uL)
 - Lysis buffer (need 1mL per sample)
   - 50mM Tris-Cl pH 7.5 (50uL of 1M stock)
@@ -179,32 +179,32 @@ You should use an antibody that you have validated has good selectivity for your
   - water to 50mL (32mL of pre-chilled water)
 - Rinse buffer D (make 50mL and keep at +4C)
   - 50mM Tris-Cl pH 7.5 (2.5mL of 1M stock)
-  - 10mM MgCl2 (1mL of 0.5M stock)
-  - water to 50mL (46.5mL of pre-chilled water)
+  - 10mM MgCl2 (500uL of 1M stock)
+  - water to 50mL (47mL of pre-chilled water)
 - PNK buffer 1 (make 1mL per sample)
   - 50mM Tris-Cl pH 7.5 (50uL of 1M stock)
-  - 10mM MgCl2 (20uL of 0.5M stock)
+  - 10mM MgCl2 (10uL of 1M stock)
   - 1mM DTT (5uL of 200mM stock)
-  - water to 1mL (925uL)
+  - water to 1mL (935uL)
 - RNL buffer 1 (make 1mL per sample)
   - 50mM Tris-Cl pH 7.5 (50uL of 1M stock)
-  - 10mM MgCl2 (20uL of 0.5M stock)
+  - 10mM MgCl2 (10uL of 1M stock)
   - 1mM DTT (5uL of 200mM stock)
   - 20% (v/v) PEG-8000 (400uL of 50% stock)
-  - water to 1mL (525uL)
+  - water to 1mL (535uL)
 - PNK buffer 2 (make 1mL per sample)
   - 50mM Tris-Cl pH 7.5 (50uL of 1M stock)
-  - 10mM MgCl2 (20uL of 0.5M stock)
+  - 10mM MgCl2 (10uL of 1M stock)
   - 1mM DTT (5uL of 200mM stock)
   - 1mM ATP (100uL of 10mM stock)
-  - water to 1mL (825uL)
+  - water to 1mL (835uL)
 - RNL buffer 2 (make 1mL per sample)
   - 50mM Tris-Cl pH 7.5 (50uL of 1M stock)
-  - 10mM MgCl2 (20uL of 0.5M stock)
+  - 10mM MgCl2 (10uL of 1M stock)
   - 1mM DTT (5uL of 200mM stock)
   - 1mM ATP (100uL of 10mM stock)
   - 20% (v/v) PEG-8000 (400uL of 50% stock)
-  - water to 1mL (425uL)
+  - water to 1mL (435uL)
 
 <span id="23-oligos"></span>
 
@@ -295,7 +295,7 @@ Read this protocol before starting to make sure you are prepared for the steps a
 - NuPAGE MOPS SDS Running Buffer (20X) (Thermo Scientific, CAT#NP0001)
 - XCell SureLock Mini-Cell Electrophoresis System (Thermo Scientific)
 - 1M TrisCl pH 7.5 (Thermo Scientific, CAT#15567027)
-- MgCl2 (Sigma, CAT#M8266)
+- 1M MgCl2 (Thermo Scientific, CAT#AM9530G)
 - RNA clean water (Thermo Scientific, CAT#10977023)
 - Dithiothreitol (Bio-Rad, CAT#1610611)
 - NuPAGE Transfer Buffer (20X) (Thermo Scientific, CAT#NP0006)
@@ -326,12 +326,11 @@ Read this protocol before starting to make sure you are prepared for the steps a
 
 ### 3.2 Solution recipes
 
-- 0.5M MgCl2 - 5.08g in 50mL of water
 - Diluted marker - 2uL PageRuler Prestained Protein Ladder, 3uL NuPAGE LDS Sample Buffer (4X), 6uL water
 - Rinse buffer D (make 50mL)
   - 50mM Tris-Cl pH 7.5 (2.5mL of 1M stock)
-  - 10mM MgCl2 (1mL of 0.5M stock)
-  - water to 50mL (46.5mL of pre-chilled water)
+  - 10mM MgCl2 (500uL of 1M stock)
+  - water to 50mL (47mL of pre-chilled water)
 - 10X TBS (make 1L)
   - 200mM Tris base (24g)
   - 1.5M NaCl (88g)
@@ -435,13 +434,16 @@ Read this protocol before starting to make sure you are prepared for the steps a
 - 1M TrisCl pH 7.5 (Thermo Scientific, CAT#15567027)
 - 5M NaCl (Thermo Scientific, CAT#AM9760G)
 - 0.5M EDTA (Thermo Scientific, CAT#15575020)
+- 1M MgCl2 (Thermo Scientific, CAT#AM9530G)
 - Dynabeads MyOne Streptavidin C1 (Thermo Scientific, CAT#65001)
 - Absolute ethanol (wherever your institute purchases this from)
-- NP-40 (Sigma, CAT#NP40)
+- NP-40 (Sigma, CAT#I8896) - NP-40 seems to no longer be available, so we use IGEPAL CA-630 as a substitute
 - Exonuclease I, 20U/uL (E. coli) (NEB, CAT#M0293S) - comes with 10X Exo1 buffer
 - 1N NaOH (Sigma, CAT#S2770-100ML)
 - 1N HCl (Sigma, CAT#H9892-100ML)
 - T4 RNA ligase 1 (NEB, CAT#M0437M)
+- SuperScript IV Reverse Transcriptase (Thermo Scientific, CAT#18090050) - this includes 5X SSIV buffer and 0.1M DTT
+- Deoxynucleotide (dNTP) Solution Mix, 10mM (NEB, CAT#N0447S)
 
 <span id="42-solution-recipes"></span>
 
@@ -453,15 +455,15 @@ Read this protocol before starting to make sure you are prepared for the steps a
 - 10% (v/v) NP-40 - 1mL in 9mL of water
 - 2X PNK buffer 1 (make 1mL)
   - 100mM Tris-Cl pH 7.5 (100uL of 1M stock)
-  - 20mM MgCl2 (40uL of 0.5M stock)
+  - 20mM MgCl2 (20uL of 1M stock)
   - 2mM DTT (10uL of 200mM stock)
-  - water to 1mL (850uL)
+  - water to 1mL (870uL)
 - 2X RNL buffer 1 (make 1mL)
   - 100mM Tris-Cl pH 7.5 (100uL of 1M stock)
-  - 20mM MgCl2 (40uL of 0.5M stock)
+  - 20mM MgCl2 (20uL of 1M stock)
   - 2mM DTT (10uL of 200mM stock)
   - 40% (w/v) PEG-8000 (800uL of 50% stock)
-  - water to 1mL (50uL)
+  - water to 1mL (70uL)
 - Streptavidin solution A (make 10mL)
   - 100mM NaOH (1mL from 1N stock)
   - 50mM NaCl (100uL from 5M stock)
@@ -476,8 +478,6 @@ Read this protocol before starting to make sure you are prepared for the steps a
   - 0.2% NP-40 (200uL of 10% stock)
 - 1X B&W buffer (make 5mL) - 2.5mL of 2X B&W buffer with 2.5mL of water
 - 10uM Ribo_RTPrimer_v4 - 10uL of 100uM stock in 90uL of water
-- SuperScript™ IV Reverse Transcriptase (Thermo Scientific, CAT#18090050) - this includes 5X SSIV buffer and 0.1M DTT
-- Deoxynucleotide (dNTP) Solution Mix, 10mM (NEB, CAT#N0447S)
 - 2X RT master mix (make 10uL per sample)
   - 2X SSIV buffer (4uL of 5X stock)
   - 1mM dNTPs (1uL of 10mM stock)
@@ -487,11 +487,11 @@ Read this protocol before starting to make sure you are prepared for the steps a
   - water (2uL)
 - RNL buffer 2 (make 1mL)
   - 50mM Tris-Cl pH 7.5 (50uL of 1M stock)
-  - 10mM MgCl2 (20uL of 0.5M stock)
+  - 10mM MgCl2 (10uL of 0.5M stock)
   - 1mM DTT (5uL of 200mM stock)
   - 1mM ATP (100uL of 10mM stock)
   - 20% (v/v) PEG-8000 (400uL of 50% stock)
-  - water to 1mL (425uL)
+  - water to 1mL (435uL)
 - 3' linker mix - mix equal parts of 40uM stocks of Clip_3DNALinker2_v4a and Clip_3DNALinker2_v4b
 
 <span id="43-oligos"></span>
@@ -749,3 +749,84 @@ The starting point for this stage of the protocol is the 25uL purified cDNA samp
 <span id="note6"></span>
 
 **Note 6** - Important to remember that RNase 1 still has activity at +4C, so be mindful of how long your incubation time is here and do not vary it between samples that are to be directly compared.
+
+<hr style="height:6pt; visibility:hidden;" />
+
+<span id="reagent list"></span>
+
+## Reagent list
+
+I know it can be a bit hard to parse all of the reagents above, especially since many are repeated in the different sections. To make this easier, this is a list of the required reagents in an easier to parse format. It excludes things like tubes and equipment pieces. Prices are taken directly from vendor websites and are current as of May 2020, in Canadian dollars.
+
+ItemNumber | Description | Vendor | Quantity | Price
+------- | ------- | ------- | ------- | -------
+AM2238 | TURBO Dnase, 2U/uL, 1000 Units | Thermo Scientific | 1 |  $152.00
+N2511 | RNaseIn, 40U/uL, 2500 Units | Promega | 1 |  $139.00
+15567027 | UltraPure 1M TrisCl, pH 7.5, 1L | Thermo Scientific | 1 |  $75.75
+AM9760G | NaCl, 5M, Rnase free, 500mL | Thermo Scientific | 1 |  $108.00
+15575020 | UltraPure 0.5M EDTA, pH 8, 4x100mL | Thermo Scientific | 1 |  $109.00
+NP40 | IGEPAL CA-630 solution, 100mL | Sigma | 1 |  $115.00
+D6750-100G | Sodium deoxycholate, 100G  | Sigma | 1 |  $150.00
+AM9530G | MgCl2, 1M, 100mL | Thermo Scientific | 1 |  $50.75
+11836170001 | cOmplete protease inhibitor tablets, EDTA free, 25 tablets | Sigma | 1 |  $202.00
+Q32856 | Qubit assay tubes, 100 tubes | Thermo Scientific | 1 |  $120.00
+Q32852 | Qubit RNA HS assay kit, 100 assays | Thermo Scientific | 1 |  $144.00
+AM2294 | RNaseI, cloned, 100U/uL, 10,000 Units | Thermo Scientific | 1 |  $188.00
+10977023 | UltraPure Dnase/Rnase free water, 10x500mL | Thermo Scientific | 1 |  $232.00
+116960050 | Lysing matrix Y tubes, 50x2mL | Cedarlane | 1 |  $299.00
+NP0007 | NuPAGE LDS Sample Buffer (4X), 10mL | Thermo Scientific | 1 |  $34.87
+15503022 | UltraPure Sucrose, 5kg | Thermo Scientific | 1 |  $249.00
+BP1311 | 20% SDS, Nuclease free, 1L | Thermo Scientific | 1 |  $148.56
+88802 | Protein A/G magnetic beads, 1mL | Thermo Scientific | 1 |  $392.00
+A2153-10G | Bvone serum albumin, 10G | Sigma | 1 |  $122.00
+1610611 | Dithiothreitol, 5g | Bio-Rad | 1 |  $121.00
+V3011 | PEG-8000, 500g | Promega | 1 |  $87.00
+M0525S | QuickCIP, 1000 Units | NEB | 1 |  $131.00
+M0201L | T4 PNK, 2500 Units | NEB | 1 |  $297.00
+M0373L | T4 RNA ligase 2, truncated KQ, 10,000 Units | NEB | 1 |  $362.00
+P0756S | 10mM ATP, 1mL | NEB | 1 |  $46.80
+M0437M | T4 RNA ligase 1, high concentration, 5000 Units | NEB | 1 |  $335.00
+26616 | PageRuler prestained protein ladder, 10 to 180kDa, 2x250uL | Thermo Scientific | 1 |  $204.00
+NP0335BOX | NuPAGE 4 to 12%, Bis-Tris, 1.5 mm, Mini Protein Gel, 10-well | Thermo Scientific | 1 |  $265.00
+NP0001 | NuPAGE MOPS SDS Running Buffer (20X), 500mL | Thermo Scientific | 1 |  $114.00
+NP00061 | NuPAGE Transfer Buffer (20X), 1L | Thermo Scientific | 1 |  $349.00
+GE10600008 | Amersham Protran Premium Western blotting membranes, nitrocellulose | Sigma | 1 |  $376.00
+88518 | PVDF Transfer Membrane, 0.45um | Thermo Scientific | 1 |  $618.00
+34860-1L-R | Methanol, HPLC grade, 1L | Sigma | 1 |  $67.90
+18-8816-31 | TrueBlot Anti-Rabbit IgG HRP | Cedarlane | 1 |  $233.00
+14190144 | DPBS, no calcium, no magnesium, 500mL | Thermo Scientific | 1 |  $40.51
+P9416-100ML | Tween 20, 100mL | Sigma | 1 |  $44.60
+93362-250G | Trizma base, 250G | Sigma | 1 |  $184.00
+71376-1KG | Sodium chloride, 1KG | Sigma | 1 |  $140.00
+H1758-100ML | Hydrochloric acid, 100mL | Sigma | 1 |  $84.20
+32109 | Pierce ECL Western Blotting Substrate, 50mL | Thermo Scientific | 1 |  $101.00
+34089 | CL-XPosure Film, 100 sheets | Thermo Scientific | 1 |  $338.00
+AM2546 | Proteinase K Solution (20 mg/mL), 1.25mL | Thermo Scientific | 1 |  $91.50
+U5378-500G | Urea, 500G | Sigma | 1 |  $89.10
+AM9720 | Acid-Phenol:Chloroform, pH 4.5, 100mL | Thermo Scientific | 1 |  $116.00
+P3803-100ML |  Phenol:Chloroform:Isoamyl Alcohol 25:24:1, Saturated with 10mM Tris, pH 8.0, 1mM EDTA | Sigma | 1 |  $129.00
+CA10847-802 | Phaselock gel (heavy), 200 tubes | VWR | 1 |  $533.75
+R1015 | RNA Clean and concentrator-5, 50 preps | Cedarlane | 1 |  $220.00
+37002D | Dynabeads MyOne Silane, 5mL | Thermo Scientific | 1 |  $495.00
+79216 | RLT buffer, 220mL | Qiagen | 1 |  $167.00
+65001 | Dynabeads MyOne Streptavidin C1, 2mL | Thermo Scientific | 1 |  $724.00
+M0293S | Exonuclease I, 20U/uL (E. coli), 3000 Units | NEB | 1 |  $90.90
+S2770-100ML | 1N NaOH, 100mL | Sigma | 1 |  $24.70
+H9892-100ML | 1N HCl, 100mL | Sigma | 1 |  $32.80
+18090050 | SuperScript IV Reverse Transcriptase, 10,000 Units | Thermo Scientific | 1 |  $508.00
+N0447S | Deoxynucleotide (dNTP) Solution Mix, 10mM | NEB | 1 |  $81.00
+4472908 | SYBR Select master mix, 5mL | Thermo Scientific | 1 |  $500.00
+M0544L | NEBNext UltraII Q5 master mix, 50rxns | NEB | 1 |  $131.00
+4309849 | MicroAmp Optical 384-Well Reaction Plate with Barcode, 50 plates | Thermo Scientific | 1 |  $485.00
+4360954 | MicroAmp Optical Adhesive Film, 25 sheets | Thermo Scientific | 1 |  $115.00
+T1030S | Monarch PCR & DNA cleanup kit, 50 preps | NEB | 1 |  $115.20
+S11494 | SYBR Gold nucleic acid gel stain, 500uL | Thermo Scientific | 1 |  $224.00
+LC6678 | Novex Hi-Density TBE sample buffer, 5X, 10mL | Thermo Scientific | 1 |  $147.00
+LC6675 | Novex TBE Running buffer, 5X, 1L | Thermo Scientific | 1 |  $62.00
+EC6265BOX | Novex TBE Gels, 6%, 10-well, box of 10 | Thermo Scientific | 1 |  $252.00
+N3032S | pBR322 DNA-MspI Digest, 50uL | NEB | 1 |  $96.30
+AM9740 | Sodium Acetate (3M), pH 5.5, 100mL | Thermo Scientific | 1 |  $50.75
+KT749521-1500 | Disposable pellet pestles, 100 pack | VWR | 1 |  $243.59
+D4060 | Oligo clean and concentrator kit, 50 preps | Cedarlane | 1 |  $133.00
+Q32851 | Qubit dsDNA HS Assay Kit, 100 assays | Thermo Scientific | 1 |  $143.00
+5067-1504 | Agilent DNA 1000 kit, 25 chips | Agilent | 1 |  $1,267.00
