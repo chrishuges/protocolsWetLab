@@ -701,7 +701,7 @@ The starting point for this stage of the protocol is the 25uL purified cDNA samp
       5. +65C for 5-minutes
       6. +4C forever
    3. Purify the PCR product with a Monarch PCR purification kit and elute in 20uL of water.
-   4. Add 5uL of 5X Novex Hi-Density TBE Sample Buffer to the PCR reaction and run on a TBE gel. Use 5uL of the Gel ladder per lane as a marker.
+   4. Add 5uL of 5X Novex Hi-Density TBE Sample Buffer to the PCR reaction and run on a TBE gel (120V). Use 5uL of the Gel ladder per lane as a marker.
    5. Stain Gel stain and visualize the result.
    6. Excise the region between 175 to 350bp and place into a fresh 1.5mL tube.
    7. Using a pellet pestle, crush the gel piece in the tube.
