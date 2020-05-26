@@ -173,6 +173,7 @@ Two different options are described for lysis here. The first uses a nuclease to
 - Benchtop centrifuge (capable of holding 1.5mL or 2mL microfuge tubes)
 - Magnetic rack for 1.5mL or 2.0mL tubes (I like this rack: Promega, CAT#Z5342)
 - Sonicating water bath (optional)
+- Clean water (Thermo Fisher, CAT#10977023)
 
 <span id="32-solution-recipes"></span>
 

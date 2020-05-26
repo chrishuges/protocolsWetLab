@@ -11,6 +11,7 @@ Descriptive protocols for different types of wet-lab experiments. PDF versions o
   - [Preparation of BSA chromatography and MS standard](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/preparationOfHelaStandardForMassSpectrometry.md)
   - [Preparation of a HeLa chromatography and MS standard](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/preparationOfBsaStandardForMassSpectrometry.md)
   - [In gel digestion for protein identification](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/inGelDigestionForProteinIdentification.md)
+  - [Preparation of immunoprecipitation samples for MS analysis](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/immunoprecipitationPreparationForMassSpectrometry.md)
   - [SP3 protein clean-up](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/sp3ProteinCleanup.md)
   - [TMT labeling of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/tandemMassTagLabelingOfPeptides.md)
   - [TopTip desalting of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/topTipPeptideCleanup.md)
