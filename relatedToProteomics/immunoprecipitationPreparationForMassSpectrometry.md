@@ -94,7 +94,7 @@ If your sample is already eluted, for example in Laemmli buffer, you can proceed
     6. Place on the magnetic rack and wait for the beads to settle.
     7. Transfer the supernatant to a fresh 1.5mL tube.
     8. The peptide sample can be stored at -80C indefinitely.
-17. The samples can now be processed for MS analysis (see [**Note 6**](#note6)).
+    9. The samples can now be processed for MS analysis (see [**Note 6**](#note6)).
 
 <hr style="height:6pt; visibility:hidden;" />
 
