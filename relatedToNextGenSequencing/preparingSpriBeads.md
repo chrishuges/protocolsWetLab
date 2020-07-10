@@ -1,8 +1,6 @@
 # Preparing SPRI beads <!-- omit in toc -->
 
-This protocol was last updated - May 15, 2020 by Chris Hughes.
-
-This protocol describes a method for preparing SPRI beads, also known as Ampure (Beckman). There is some great info related to this protocol to be found [**here**](https://openwetware.org/wiki/SPRI_bead_mix).
+This document describes a method for preparing SPRI beads, also known as Ampure (Beckman). There is some great info related to this protocol to be found [**here**](https://openwetware.org/wiki/SPRI_bead_mix).
 
 <hr style="height:6pt; visibility:hidden;" />
 

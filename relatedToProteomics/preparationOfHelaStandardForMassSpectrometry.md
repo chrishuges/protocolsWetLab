@@ -1,8 +1,6 @@
 # Preparing a HeLa standard for MS <!-- omit in toc -->
 
-This protocol was last updated - May 18, 2020 by Chris Hughes.
-
-This protocol describes a protocol for preparing a HeLa cell line protein digest for use as a standard to measure chromatography and mass spectrometer performance. This protocol was designed to optimize ease of use and could theoretically be applied to the preparation of other protein standards, if desired. Although we use HeLa cells, any cell type can be used here. The main idea is to create a 'complex' standard.
+This document describes a protocol for preparing a HeLa cell line protein digest for use as a standard to measure chromatography and mass spectrometer performance. This protocol was designed to optimize ease of use and could theoretically be applied to the preparation of other protein standards, if desired. Although we use HeLa cells, any cell type can be used here. The main idea is to create a 'complex' standard.
 
 <hr style="height:6pt; visibility:hidden;" />
 

@@ -1,7 +1,5 @@
 # Total proteome analysis by mass spectrometry <!-- omit in toc -->
 
-This protocol was last updated - May 11, 2020 by Chris Hughes.
-
 This document describes an end-to-end protocol for quantitative whole-proteome analysis by mass spectrometry. This protocol can be used as a general guideline as there are many different ways of doing many of these individual steps and still achieving success. The topics covered include how to perform harvest and lysis of cell line material, clean-up of proteins, tryptic digestion, TMT labeling, high pH C18 reversed phase fractionation, nanospray column preparation, MS data acquisition, and data analysis. The assumed starting material is cell-line derived, but is also appropriate for tissues (non-FFPE).
 
 <hr style="height:6pt; visibility:hidden;" />

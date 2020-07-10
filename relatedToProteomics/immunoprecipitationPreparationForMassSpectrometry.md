@@ -1,7 +1,5 @@
 # Preparation of immunoprecipitation samples for MS analysis <!-- omit in toc -->
 
-This protocol was last updated - May 26, 2020 by Chris Hughes.
-
 This document describes how to perform preparation of immunoprecipitated protein samples for analysis by mass spectrometry. The assumed starting point for this protocol are beads just after you have performed your affinity purification. As we will be using SP3 as the first processing step, elution can be performed in virtually any condition. Below, I give a formulation of a typical elution buffer that I use in my immunoprecipitation (IP) experiments.
 
 <hr style="height:6pt; visibility:hidden;" />

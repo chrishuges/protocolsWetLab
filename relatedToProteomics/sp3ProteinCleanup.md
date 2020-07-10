@@ -1,7 +1,5 @@
 # Cleanup of protein mixtures using SP3 <!-- omit in toc -->
 
-This protocol was last updated - May 11, 2020 by Chris Hughes.
-
 This document describes how to perform SP3 on a prepared protein mixture that contains contaminants you would like to remove (e.g. detergents). The described protocol includes information of directly eluting proteins, or digestion with trypsin as the final elution step from the beads. This protocol is described based on the use of 100ug of input lysate, but the protocol can be scaled for any amount of input material. Refer to the Nature Protocols paper on SP3 for considerations related to scaling volumes or bead amounts when you use different amounts of input material (PMID: 30464214).
 
 <hr style="height:6pt; visibility:hidden;" />

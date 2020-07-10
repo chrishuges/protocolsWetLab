@@ -1,7 +1,5 @@
 # RNA binding protein site analysis with CLIP <!-- omit in toc -->
 
-This protocol was last updated - May 21, 2020 by Chris Hughes.
-
 This document describes a protocol for preparing performing an analysis of RNA binding protein (RBP) interaction sites on RNA. This protocol is based on the single-end, monitored eCLIP, and irCLIP2 protocols described previously (PMID: 28766298, 30252095, 31610236). Compared to these protocols, I use modifications at various steps during processing, as well as in the sequencing adapter configuration. Libraries made with this protocol can be sequenced on Illumina platforms, such as NextSeq, using single- or paired-end reads. The UMI strategy used is based on PMID: 30001700.
 
 <hr style="height:6pt; visibility:hidden;" />

@@ -1,7 +1,5 @@
 # Peptide clean-up using C18 TopTips <!-- omit in toc -->
 
-This protocol was last updated - May 10, 2020 by Chris Hughes.
-
 This protocol describes clean-up of peptide samples using C18 TopTips prior to downstream processing, such as mass spectrometry analysis. The described protocol uses 1mL TopTips, but can be scaled for any volume of tip. For example, for 200uL TopTips, substitute the 600uL volume used in all steps with 100uL.
 
 <hr style="height:6pt; visibility:hidden;" />

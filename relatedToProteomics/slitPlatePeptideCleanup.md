@@ -1,8 +1,6 @@
 # Peptide clean-up using C18 SlitPlates <!-- omit in toc -->
 
-This protocol was last updated - May 19, 2020 by Chris Hughes.
-
-This protocol describes clean-up of peptide samples using C18 SlitPlates prior to downstream processing, such as mass spectrometry analysis. The described protocol uses 96-well SlitPlates, but can be scaled for 384-well plates.
+This document describes clean-up of peptide samples using C18 SlitPlates prior to downstream processing, such as mass spectrometry analysis. The described protocol uses 96-well SlitPlates, but can be scaled for 384-well plates.
 
 <hr style="height:6pt; visibility:hidden;" />
 

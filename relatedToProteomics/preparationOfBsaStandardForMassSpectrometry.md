@@ -1,8 +1,6 @@
 # Preparing a BSA standard for MS <!-- omit in toc -->
 
-This protocol was last updated - May 10, 2020 by Chris Hughes.
-
-This protocol describes a protocol for preparing a bovine serum albumin (BSA) protein digest for use as a standard to measure chromatography and mass spectrometer performance. This protocol was designed to optimize ease of use and could theoretically be applied to the preparation of other protein standards, if desired.
+This document describes a protocol for preparing a bovine serum albumin (BSA) protein digest for use as a standard to measure chromatography and mass spectrometer performance. This protocol was designed to optimize ease of use and could theoretically be applied to the preparation of other protein standards, if desired.
 
 <hr style="height:6pt; visibility:hidden;" />
 

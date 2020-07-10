@@ -1,7 +1,5 @@
 # Tandem mass tag labeling of peptides <!-- omit in toc -->
 
-This protocol was last updated - May 11, 2020 by Chris Hughes.
-
 This document describes how to chemically label peptides with tandem mass tags (TMT). TMT is a barcoding technique that allows for samples to be multiplexed during mass spectrometry analysis. This protocol is based on the use of the 5mg TMT kits in 11-plex format, but is applicable to any TMT kit without modification.
 
 <hr style="height:6pt; visibility:hidden;" />

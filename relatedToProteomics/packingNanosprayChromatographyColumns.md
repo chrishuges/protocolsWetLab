@@ -1,7 +1,5 @@
 # Packing chromatography columns with integrated nanospray tips <!-- omit in toc -->
 
-This protocol was last updated - May 15, 2020 by Chris Hughes.
-
 This document describes a protocol for making chromatography columns that have integrated nanospray tips. Although this protocol describes packing into pulled capillaries, it can also be used as a guideline for packing into standard fritted capillaries to make trap, or analytical columns. A key aspect of this protocol is that it utilizes an extra nanoLC pump in order to push beads from a packed reservoir into the column. I acknowledge that not everyone will have access to an extra instrument, and in this case you can just use the packing bomb for the whole procedure. However, the nanoLC does not need to be top-of-the-line. The system we use is quite old, has a pressure max around 5,000 psi, and is no longer capable of providing a reliable gradient. We acquired it for free from a lab where it was just taking up space on a shelf.
 
 <hr style="height:6pt; visibility:hidden;" />

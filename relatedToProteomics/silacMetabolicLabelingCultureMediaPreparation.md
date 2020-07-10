@@ -1,8 +1,6 @@
 # Preparing medium for metabolic SILAC labeling <!-- omit in toc -->
 
-This protocol was last updated - May 10, 2020 by Chris Hughes.
-
-This protocol describes a typical preparation of culture medium in order to perform a metabolic labeling experiment, such as SILAC.
+This document describes a typical preparation of culture medium in order to perform a metabolic labeling experiment, such as SILAC.
 
 <hr style="height:6pt; visibility:hidden;" />
 
