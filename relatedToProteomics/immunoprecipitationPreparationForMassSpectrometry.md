@@ -2,7 +2,7 @@
 
 This protocol was last updated - May 26, 2020 by Chris Hughes.
 
-This document describes how to perform preparation of immunoprecipitated protein samples for analysis by mass spectrometry. The assumed starting point for this protocol is an eluted sample. As we will be using SP3 as the first processing step, elution can be performed in virtually any condition. Below, I give a formulation of a typical elution buffer that I use in my immunoprecipitation (IP) experiments.
+This document describes how to perform preparation of immunoprecipitated protein samples for analysis by mass spectrometry. The assumed starting point for this protocol are beads just after you have performed your affinity purification. As we will be using SP3 as the first processing step, elution can be performed in virtually any condition. Below, I give a formulation of a typical elution buffer that I use in my immunoprecipitation (IP) experiments.
 
 <hr style="height:6pt; visibility:hidden;" />
 
@@ -59,6 +59,8 @@ This document describes how to perform preparation of immunoprecipitated protein
 <span id="protocol"></span>
 
 ## Protocol
+
+If your sample is already eluted, for example in Laemmli buffer, you can proceed directly to SP3 preparation in Step 4.
 
 1. Pre-heat the ThermoMixer to +85C.
 2. Prepare your sample by reconstituting your IP beads in 100uL of IP elution solution and incubate in the heated ThermoMixer for 5-minutes with shaking at 1,000rpm.
