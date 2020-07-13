@@ -1,6 +1,6 @@
 # RNA profiling from polysomes <!-- omit in toc -->
 
-This document describes protocols for preparing polysomes in order to isolate RNA for downstream analysis. This protocol is designed to work with a cell pellet derived from a single 15-cm dish at approximately 75% confluency that would yield approximately 20 million cells. Scale based on the yield of your own cell line. This protocol can also be modified to be used for tissues (modify the lysis conditions to add some level of mechanical disruption of the tissue). I prefer to use a sucrose step gradient for this, but you could use a cushion if you prefer.
+This document describes protocols for preparing polysomes in order to isolate RNA for downstream analysis. This protocol is designed to work with a cell pellet derived from a single 15-cm dish at approximately 75% confluency that would yield approximately 20 million cells (depending entirely on your cell line). Scale based on the yield of your own cell line. This protocol can also be modified to be used for tissues (modify the lysis conditions to add some level of mechanical disruption of the tissue).
 
 <hr style="height:6pt; visibility:hidden;" />
 
