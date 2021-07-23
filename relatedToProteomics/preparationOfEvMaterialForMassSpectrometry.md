@@ -20,7 +20,7 @@ This document describes an end-to-end protocol for analysis of the proteome of E
 
 <span id="1-protein-digestion"></span>
 
-## 1. Cell line harvest
+## 1. Protein digestion
 
 This protocol is based on a direct trypsin approach and assumes a starting point of a pellet following ultracentrifugation.
 
