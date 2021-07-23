@@ -302,14 +302,14 @@ First, labeled TMT peptide mixtures need to be concentrated to reduce the levels
 4. Remove the sample tubes from the lyophilizer (there should be only white material remaining), and reconstitute the first sample tube in 600uL of water.
 5. Transfer the 600uL to the next sample tube and reconstitute. Perform this same task until all samples are reconstituted in the same 600uL. Set the sample tube aside.
 6. Using a pipette, add 600uL of Buffer A to a TopTip and elute the added liquid to the waste at a flow rate of 1 drop per second (see [**Note 9**](#note9)).
-7. Repeat the previous step one additional time for a total of 2 rinses.
+7. Optional: repeat the previous step one additional time for a total of 2 rinses.
 8. Add 600uL of Buffer B to the TopTip and elute to waste as above.
-9. Repeat the previous step one additional time for a total of 2 rinses.
+9. Optional: repeat the previous step one additional time for a total of 2 rinses.
 10. Add the sample to the TopTip and elute to waste as above.
 11. Rinse the loaded TopTip with 600uL of Rinse Buffer.
-12. Repeat the previous step two additional times for a total of 3 rinses.
+12. Optional: repeat the previous step two additional times for a total of 3 rinses.
 13. Elute the peptides with 600uL of the Elution Buffer into a fresh 1.5mL tube.
-14. Repeat the previous step one additional time for a total of 2 elutions.
+14. Optional: repeat the previous step one additional time for a total of 2 elutions.
 15. Poke an approximately 1cm diameter hole in the lid of the elution tube and transfer it to the -80C freezer.
 16. Turn on the lyophilizer and allow the vaccuum chamber to chill.
 17. Add the frozen samples to the lyophilizer and turn on the vaccuum. Leave overnight, or for about 12-hours.

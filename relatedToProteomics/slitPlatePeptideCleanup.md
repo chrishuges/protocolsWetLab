@@ -40,14 +40,14 @@ This document describes clean-up of peptide samples using C18 SlitPlates prior t
 
 Prior to processing, ensure that your sample contains less than 5% (v/v) of acetonitrile or other similar solvents, otherwise your sample will not bind efficiently. The sample volume needs to be below 200uL to load on the SlitPlate. Only uncover wells on the SlitPlate that you intend to use.
 
-1. Using a pipette, add 180uL of Buffer A to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
-2. Repeat the previous step one additional time for a total of 2 rinses.
-3. Add 180uL of Buffer B to the SlitPlate wells and centrifuge at 250g for 3-minutes (see [**Note 1**](#note1)). Empty the collection plate to the waste.
-4. Repeat the previous step one additional time for a total of 2 rinses.
-5. Add the peptide samples to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
-6. Add 180uL of Rinse buffer to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
-7. Repeat the previous step two additional times for a total of 3 rinses. After the final rinse, make sure to empty all liquid from the collection plate.
-8. Add 180uL of Elution buffer to the SlitPlate wells and centrifuge at 250g for 3-minutes (see [**Note 2**](#note2)).
+1. Using a pipette, add 160uL of Buffer A to the SlitPlate wells and centrifuge at 250g for 2-minutes. Empty the collection plate to the waste.
+2. Optional: repeat the previous step one additional time for a total of 2 rinses.
+3. Add 160uL of Buffer B to the SlitPlate wells and centrifuge at 250g for 2-minutes (see [**Note 1**](#note1)). Empty the collection plate to the waste.
+4. Optional: repeat the previous step one additional time for a total of 2 rinses.
+5. Add the peptide samples to the SlitPlate wells and centrifuge at 250g for 5-minutes. Empty the collection plate to the waste.
+6. Add 160uL of Rinse buffer to the SlitPlate wells and centrifuge at 250g for 2-minutes. Empty the collection plate to the waste.
+7. Optional: repeat the previous step two additional times for a total of 3 rinses. After the final rinse, make sure to empty all liquid from the collection plate.
+8. Add 160uL of Elution buffer to the SlitPlate wells and centrifuge at 250g for 5-minutes (see [**Note 2**](#note2)).
 9. Transfer the elution to fresh 1.5mL tubes.
 10. Concentrate the sample by evaporation (see [**Note 3**](#note3)).
 
