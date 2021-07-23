@@ -59,11 +59,13 @@ This protocol is based on a direct trypsin approach and assumes a starting point
 
 <span id="2-peptide-cleanup"></span>
 
+## 2. Peptide cleanup
+
 This protocol is based on the use of 96-well SlitPlates, but you can use any standard C18 peptide cleanup procedure you are familiar with.
 
 <span id="21-reagents-and-materials"></span>
 
-## Reagents and materials
+### 2.1 Reagents and materials
 
 - C18 SlitPlates (CAT#S2C18, Glygen Corp.)
 - Acetonitrile, HPLC grade (CAT#51101, Thermo Scientific)
@@ -75,7 +77,7 @@ This protocol is based on the use of 96-well SlitPlates, but you can use any sta
 
 <span id="22-solution-recipes"></span>
 
-## Solution recipes
+### 2.2 Solution recipes
 
 - Buffer A - 0.1% trifluoroacetic acid (TFA) in acetonitrile
 - Buffer B - 0.1% TFA in water
@@ -84,7 +86,7 @@ This protocol is based on the use of 96-well SlitPlates, but you can use any sta
 
 <span id="23-protocol"></span>
 
-## Protocol
+### 2.3 Protocol
 
 Prior to processing, ensure that your sample contains less than 5% (v/v) of acetonitrile or other similar solvents, otherwise your sample will not bind efficiently. The sample volume needs to be below 200uL to load on the SlitPlate. Only uncover wells on the SlitPlate that you intend to use.
 
