@@ -18,6 +18,7 @@ Descriptive protocols for different types of wet-lab experiments. PDF versions o
   - [SlitPlate desalting of peptides](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/slitPlatePeptideCleanup.md)
   - [Packing nanospray chromatography columns](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/packingNanosprayChromatographyColumns.md)
   - [Total proteome analysis by mass spectrometry](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/totalProteomeAnalysisByMassSpectrometry.md)
+  - [Dual RNA and proteome analysis by mass spectrometry](https://github.com/chrishuges/protocolsWetLab/blob/master/relatedToProteomics/dualRnaAndProteomeAnalysisByMassSpectrometry.md)
 - [Related to Next Generation Sequencing](https://github.com/chrishuges/wetLabProtocols/tree/master/relatedToNextGenSequencing)
   - [Preparing homemade SPRI/Ampure beads](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/preparingSpriBeads.md)
   - [RNA profiling from total polysomes](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/polysomeProfilingRna.md)
