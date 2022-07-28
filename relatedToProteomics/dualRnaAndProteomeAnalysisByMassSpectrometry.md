@@ -1,6 +1,6 @@
-# Dual RNA and proteome analysis by mass spectrometry <!-- omit in toc -->
+# Dual whole transcriptome and proteome analysis <!-- omit in toc -->
 
-This document describes an end-to-end protocol for quantitative whole-proteome analysis by mass spectrometry that also harvests matched material that can be used for RNA sequencing. This protocol can be used as a general guideline as there are many different ways of doing many of these individual steps and still achieving success. The topics covered include how to perform harvest and lysis of cell line material, clean-up of proteins, tryptic digestion, and final peptide clean-up. The protocol is designed to work with cell line material, but may be appropriate for tissues or other sources.
+This document describes an end-to-end protocol for quantitative whole-proteome analysis by mass spectrometry that also harvests matched material that can be used for whole transcriptome analysis by RNA sequencing. This protocol can be used as a general guideline as there are many different ways of doing many of these individual steps and still achieving success. The topics covered include how to perform harvest and lysis of cell line material, clean-up of proteins, tryptic digestion, and final peptide clean-up. The protocol is designed to work with cell line material, but may be appropriate for tissues or other sources.
 
 <hr style="height:6pt; visibility:hidden;" />
 
@@ -115,18 +115,18 @@ Prior to starting, prepare sufficient Lysis buffer A and B for all of the sample
 11. Add 10uL of CAA to the protein lysate and vortex mix. Incubate at +24C for 30-minutes in the dark.
 12. Reconstitute your DTT in 100mM HEPES pH 8, and add 10uL to each tube of protein lysate and vortex mix.
 13. Prepare the SP3 beads stock:
-  1. Vortex the bead stock to re-suspend the material.
-  2. Take 500uL of each of the bead stocks and combine in a fresh 2mL tube.
-  3. Place on a magnetic rack and wait for beads to settle. Discard the supernatant.
-  4. Reconstitute the beads in 1mL of water with pipetting and place back on the magnetic rack. After the beads settle, discard the supernatant.
-  5. Repeat the above rinse one additional time for a total of 2 rinses.
-  6. Reconstitute the beads in 500uL of water. The bead stock can be stored at +4C indefinitely.
+    1. Vortex the bead stock to re-suspend the material.
+    2. Take 500uL of each of the bead stocks and combine in a fresh 2mL tube.
+    3. Place on a magnetic rack and wait for beads to settle. Discard the supernatant.
+    4. Reconstitute the beads in 1mL of water with pipetting and place back on the magnetic rack. After the beads settle, discard the supernatant.
+    5. Repeat the above rinse one additional time for a total of 2 rinses.
+    6. Reconstitute the beads in 500uL of water. The bead stock can be stored at +4C indefinitely.
 14. Add 10uL of SP3 bead stock to each tube of protein lysate and gently shake the tube to mix.
 15. Add 800uL of acetone to each tube of protein lysate and gently shake the tube to mix. Incubate at +24C for 5-minutes.
 16. During the above incubation, prepare your digestion mixture:
-  1. Reconstitute urea powder to 1mL with ~800uL of 100mM HEPES pH 8. Vortex mix.
-  2. Reconstitute a trypsin/rLysC vial using 200uL of the provided reconstitution solution.
-  3. Transfer 10uL of trypsin per sample to a fresh tube, and add 100uL of prepared urea per sample. Vortex mix and keep on ice.
+    1. Reconstitute urea powder to 1mL with ~800uL of 100mM HEPES pH 8. Vortex mix.
+    2. Reconstitute a trypsin/rLysC vial using 200uL of the provided reconstitution solution.
+    3. Transfer 10uL of trypsin per sample to a fresh tube, and add 100uL of prepared urea per sample. Vortex mix and keep on ice.
 17. Centrifuge the protein lysate tubes at 5,000g for 5-minutes.
 18. Discard the supernatant from each tube and add 800uL of 80% ethanol. Gently shake the tube to mix.
 19. Centrifuge the tubes at 5,000g for 5-minutes and discard the supernatant. Using a P200 micropipette, make sure you have removed as much liquid as possible from the tubes.
@@ -136,13 +136,13 @@ Prior to starting, prepare sufficient Lysis buffer A and B for all of the sample
 23. The next day, spin the tubes at 12,000g for 2-minutes. Add 8uL of acetonitrile to each tube and vortex mix.
 24. Centrifuge the tubes again at 12,000g for 2-minutes, and then place on a magnetic rack.Remove cell pellet from the -80C freezer and allow to slowly thaw at room temperature (+21C).
 25. Clean up your sample using a SlitPlate:
-  1. Add 200uL of Buffer A to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
-  2. Add 200uL of Buffer B to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
-  3. Add 200uL of the peptide samples to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
-  4. Repeat Step 3 to load the remainder of the sample.
-  5. Add 200uL of Rinse buffer to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
-  6. Add 180uL of Elution buffer to the SlitPlate wells and centrifuge at 250g for 3-minutes.
-  7. Transfer the elution from the collection plate to fresh 1.5mL tubes for each sample.
+    1. Add 200uL of Buffer A to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
+    2. Add 200uL of Buffer B to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
+    3. Add 200uL of the peptide samples to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
+    4. Repeat Step 3 to load the remainder of the sample.
+    5. Add 200uL of Rinse buffer to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
+    6. Add 180uL of Elution buffer to the SlitPlate wells and centrifuge at 250g for 3-minutes.
+    7. Transfer the elution from the collection plate to fresh 1.5mL tubes for each sample.
 26. Concentrate the peptide sample by evaporation. You can use a SpeedVac or a Lyophilizer for this purpose.
 27. After the sample is evaporated, add 20uL of Sample reconstitution buffer to the tube, vortex, and then spin at 12,000g for 2-minutes.
 28. Transfer the reconstituted peptides to a 96-well plate with a silicon mat lid.
