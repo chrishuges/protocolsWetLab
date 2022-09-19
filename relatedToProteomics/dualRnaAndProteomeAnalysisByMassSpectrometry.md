@@ -100,12 +100,12 @@ This protocol assumes you have your cells growing in conventional 6-well dishes.
 
 ### 1.3 Protocol
 
-Prior to starting, prepare sufficient Lysis buffer A and B for all of the samples to be processed. Make sure you have a Thermoblock heated to +95C or greater. Weigh out the CAA and Urea powders into tubes, but don't reconstitute until just before you will use them. Prepare 2 tubes for each sample to be processed (one for RNA, one for protein). To the RNA tubes, add 350uL of RNA lysis buffer to each.
+Prior to starting, prepare sufficient Lysis buffer A and B for all of the samples to be processed. Make sure you have a Thermoblock heated to +95C or greater. Weigh out the CAA and Urea powders into tubes, but don't reconstitute until just before you will use them. Prepare 2 tubes for each sample to be processed (one for RNA - 1.5mL tube, one for protein - 2mL tube). To the RNA tubes, add 350uL of RNA lysis buffer to each.
 
 1. Using a pipette, remove the culture medium from the growing cells on the 6-well plate.
 2. Add 2mL of DPBS to each well and swirl the plate to rinse. Pipette up and discard the DPBS.
 3. Add 200uL of Lysis buffer A to each well and rock the plate back and forth to ensure the cells are covered.
-4. Working one well at a time, use a cell scraper to dislodge the cells and a micropipette to transfer 200uL of lysate to the protein tube. Repeat for each sample.
+4. Working one well at a time, use a cell scraper to dislodge the cells and a micropipette to transfer 200uL of lysate to the protein tube on ice. Repeat for each sample.
 5. After you have harvested all of the samples in this manner, transfer 50uL of each lysate to the corresponding RNA tube containing RNA lysis buffer and vortex mix. These cells can be frozen at -80C for RNA extraction at a later time.
 6. To the remaining 150uL of lysate in the protein tube, add 10uL of nuclease mix and pipette mix. Incubate for 10-minutes at +24C.
 7. After incubation, add 50uL of Lysis buffer B to the protein lysate and pipette mix. 
@@ -113,7 +113,7 @@ Prior to starting, prepare sufficient Lysis buffer A and B for all of the sample
 9. Remove the protein lysate from the Thermoblock and let sit at +24C for 10-minutes. During this incubation, reconstitute your CAA powder in 500uL of HEPES pH 8.5.
 10. Quick-spin the tubes at low speed to remove any condensation from the lid (e.g. 250g for 30 seconds).
 11. Add 10uL of CAA to the protein lysate and vortex mix. Incubate at +24C for 30-minutes in the dark.
-12. Reconstitute your DTT in 100mM HEPES pH 8, and add 10uL to each tube of protein lysate and vortex mix.
+12. Reconstitute your DTT in 100mM HEPES pH 8.5, and add 10uL to each tube of protein lysate and vortex mix.
 13. Prepare the SP3 beads stock:
     1. Vortex the bead stock to re-suspend the material.
     2. Take 500uL of each of the bead stocks and combine in a fresh 2mL tube.
@@ -134,7 +134,7 @@ Prior to starting, prepare sufficient Lysis buffer A and B for all of the sample
 21. Transfer the tubes to a shaking Thermomixer set at +24C and 1,000rpm, and digest for 2-4 hours.
 22. Add 300uL of 100mM HEPES pH 8 to each tube and place back in the Thermomixer and incubate overnight at +24C and 1,000rpm mixing.
 23. The next day, spin the tubes at 12,000g for 2-minutes. Add 8uL of acetonitrile to each tube and vortex mix.
-24. Centrifuge the tubes again at 12,000g for 2-minutes, and then place on a magnetic rack.Remove cell pellet from the -80C freezer and allow to slowly thaw at room temperature (+21C).
+24. Centrifuge the tubes again at 12,000g for 2-minutes, and then place on a magnetic rack.
 25. Clean up your sample using a SlitPlate:
     1. Add 200uL of Buffer A to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
     2. Add 200uL of Buffer B to the SlitPlate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.
@@ -145,5 +145,5 @@ Prior to starting, prepare sufficient Lysis buffer A and B for all of the sample
     7. Transfer the elution from the collection plate to fresh 1.5mL tubes for each sample.
 26. Concentrate the peptide sample by evaporation. You can use a SpeedVac or a Lyophilizer for this purpose.
 27. After the sample is evaporated, add 20uL of Sample reconstitution buffer to the tube, vortex, and then spin at 12,000g for 2-minutes.
-28. Transfer the reconstituted peptides to a 96-well plate with a silicon mat lid.
+28. Transfer the reconstituted peptides to a 96-well plate with a silicone mat lid.
 29. Samples can be stored at this stage at -20C until analysis.
