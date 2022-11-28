@@ -1,6 +1,6 @@
 # Whole transcriptome, polysome, proteome, and purification analysis <!-- omit in toc -->
 
-This document describes an end-to-end protocol for performing global transcriptome, proteome, and polysome analysis, along with RNA and protein-IP for a target of interest, all from a single cell lysate.
+This document describes an end-to-end protocol for performing global transcriptome, proteome, and polysome analysis, along with RNA and protein-IP for a target of interest, all from a single cell lysate. 
 
 <hr style="height:6pt; visibility:hidden;" />
 
@@ -63,14 +63,14 @@ This protocol assumes you have your cells growing in 15cm dishes. For other dish
 3. To the 'TE' 50mL tube, add 7mL of TrypLE express per sample you plan to harvest.
 4. Remove the cell plate from the incubator and pipette 20uL of cycloheximide into the media in the dish (or a volume equivalent to what is present in the dish already, e.g. 15mL of media, add 15uL of cycloheximide stock).
 5. Place the plate back in the incubator and leave it for 10-minutes.
-6. Remove the cycloheximide treated plate from the incubator and remove the culture medium to the 50mL tube labeled 'Media'.
+6. Remove the cycloheximide treated plate from the incubator and remove the culture medium to the 50mL tube labeled 'Media' (any excess beyond 50mL can go to waste).
 7. Add 6.5mL of TrypLE express to the plate and swirl the coat the bottom of the dish.
-8. Detach the cells from the bottom of the dish using a 10mL pipette.
+8. After a couple of minutes (depending on your cell line), detach the cells from the bottom of the dish by pipetting with a 10mL pipette.
 9. With 6.5mL of media from the 'Media' tube, rinse and collect the detached cells and transfer to the appropriate 15mL tube.
 10. Centrifuge the tube with the cells for 3-minutes at 200g.
-11. Dump the supernatant to waste (I use an old media bottle for this).
+11. Dump the supernatant to waste.
 12. Add 5mL of DPBS to the tube with the cell pellet. There is no need to mix here.
-13. Centrifuge the tube for 60-seconds at 200g.
+13. Centrifuge the tube for 3-minutes at 200g.
 14. Dump the supernatant to waste and spirate the remaining liquid to leave as little as possible.
 15. Place the cell pellet on dry ice until frozen and keep at -80C until use.
 
@@ -80,7 +80,7 @@ This protocol assumes you have your cells growing in 15cm dishes. For other dish
 
 ## 2. Sucrose gradient preparation
 
-Use only RNase-free reagents.
+The gradient preparation protocol is based on the use of the SW-61Ti rotor type. If you have another rotor (e.g. SW-41Ti), just scale up the volumes. We opt to use a 'compact' gradient to help reduce processing volumes downstream. Use only RNase-free reagents.
 
 <span id="21-reagents-and-materials"></span>
 
@@ -96,7 +96,7 @@ Use only RNase-free reagents.
 - MgCl2 (Sigma, CAT#M8266)
 - KCl (Sigma, CAT#P9333)
 - Sucrose (Thermo Scientific, CAT#15503022)
-- RNA clean water (Thermo Fisher, CAT#10977023)
+- Nuclease-free water (Thermo Fisher, CAT#10977023)
 
 <span id="22-solution-recipes"></span>
 
@@ -109,32 +109,32 @@ Use only RNase-free reagents.
   - 1.5M KCl (56.0g)
   - 150mM MgCl2 (7.1g)
   - water to 500mL
-  - filter and store at +4C
+  - filter and store at +4C indefinitely
 - 10% (w/v) sucrose - 4g in 36mL of water, 4mL of Polysome base buffer (filter and keep at +4C)
 - 34% (w/v) sucrose - 13.6g in 36mL of water, 4mL of Polysome base buffer (filter and keep at +4C)
-- 40% (w/v) sucrose - 16g in 36mL of water, 4mL of Polysome base buffer (filter and keep at +4C)
+- 45% (w/v) sucrose - 18g in 36mL of water, 4mL of Polysome base buffer (filter and keep at +4C)
 
 <span id="23-protocol"></span>
 
 ### 2.3 Protocol
 
-Make sure you have read and understood the protocol below before proceeding. The gradients are the most important part of this protocol, so take your time here. Practice makes perfect and sucrose is cheap, so practice your technique in a waste tube before hand if you want. I like to make my gradients the day before I plan to run samples.
+Make sure you have read and understood the protocol below before proceeding. The gradients are the most important part of this protocol, so take your time here. Practice makes perfect and sucrose is cheap, so practice your technique in a waste tube before hand if you want. I like to make my gradients the day before I plan to run samples. The lysis protocol is based on the use of the 'short' lids during gradient preparation.
 
 1. Prepare the sucrose solutions according to the recipe's above and allow the solutions to equilibrate to room temperature for 30-minutes or so.
 2. Prep your workspace by cleaning it with an RNaseZap wipe.
 3. Prepare a 50mL tube containing RNA clean water, and another containing a solution of 10% (v/v) RNaseZap.
-4. Place an ultracentrifuge tube in the appropriate jig and mark the halfway point using a marker.
-5. Add 750uL of the 10% sucrose solution to each tube.
+4. Place an ultracentrifuge tube in the appropriate jig and mark the halfway point using a marker (this depends on which lids you will use, the short lids use the upper line on the jig).
+5. Using a standard pipette, add 750uL of the 10% sucrose solution to each tube.
 6. Attach a blunt needle to a syringe and draw 3mL of the 10% RNaseZap solution into the syringe and expel back into the same tube. Repeat this process 2-times for a total of 3 rinses.
 7. Draw 3mL of RNA clean water into the syringe and expel to waste. Repeat this process 2-times for a total of 3 rinses.
 8. Draw a small amount of the 34% sucrose into the syringe and discard to waste.
 9. Draw approximately 3mL of 34% sucrose into the syringe, slowly to avoid bubbles, and quickly transfer the needle to the bottom of the ultracentrifuge tube and slowly fill the tube to the halfway point made with the marker. I generally like to fill just beyond the halfway mark (1-2mm), being consistent to do the same thing across each tube.
 10. Repeat this process for each of the ultracentrifuge tubes.
-11. Discard any remaining 34% sucrose solution and draw a small amount of 40% sucrose into the syringe and discard it to waste. 
-12. Draw approximately 3mL of 40% sucrose into the syringe, slowly to avoid bubbles, and quickly transfer the needle to the bottome of the ultracentrifuge tube and slowly fill the tube to the halfway point. Be consistent.
+11. Discard any remaining 34% sucrose solution and draw a small amount of 45% sucrose into the syringe and discard it to waste. 
+12. Draw approximately 3mL of 45% sucrose into the syringe, slowly to avoid bubbles, and quickly transfer the needle to the bottome of the ultracentrifuge tube and slowly fill the tube to the halfway point. Be consistent.
 13. Repeat this process for each of the ultracentrifuge tubes.
 14. Rinse the syringe 3x with water, and then 3x with RNase ZAP water, blowing out any extra liquid, and place the needle in a bag to be autoclaved. Discard the used syringe.
-15. Take a short or long tube cap (provided with the BioComp unit) and hold it with the hole in the cap facing your person. Hold the ultracentrifuge tube you plan to cap with your other hand along with a KimWipe. With the cap at a 45 degree angle, insert the cap into the tube such that any liquid that is expelled from the tube enters through the hold in the cap and goes into the top of the cap.
+15. Take a short or long tube cap (depending on which jig mark you used) and hold it with the hole in the cap facing your person. Hold the ultracentrifuge tube you plan to cap with your other hand along with a KimWipe. With the cap at a 45 degree angle, insert the cap into the tube such that any liquid that is expelled from the tube enters through the hold in the cap and goes into the top of the cap.
 16. Pipette any extra sucrose solution that has expelled into the cap to waste and use the KimWipe in your hand to clean the sides of the tube, if necessary. Repeat this capping process for all tubes.
 17. Place the prepared gradients in the cold room for use the next day. 
 
@@ -144,7 +144,7 @@ Make sure you have read and understood the protocol below before proceeding. The
 
 ## 3. RNA, polysome, and protein Sample Preparation
 
-For all the solutions described below and throughout this protocol in general, you should do your best to use sterile glassware and reagents. As the goal here is to measure RNA and proteins, make an effort to minimize potential keratin and RNase contamination (e.g. wear a lab coat and don't touch your tubes with un-gloved hands). I like to use the Zymo RNA kit here, but you can substitute virtually any RNA isolation kit you would like. 
+As the goal here is to measure RNA and proteins, make an effort to minimize potential keratin and RNase contamination (e.g. wear a lab coat and don't touch your tubes with un-gloved hands). I like to use the [Zymo RNA kit that works with Trizol](https://www.zymoresearch.com/pages/direct-zol-rna-purification-kits), but you can substitute virtually any RNA isolation kit you would like. The Trizol kit is nice because it works with sucrose and eliminates having to do any sort of precipitation.
 
 <span id="31-reagents-and-materials"></span>
 
@@ -160,22 +160,26 @@ For all the solutions described below and throughout this protocol in general, y
 - MgCl2 (Sigma, CAT#M8266)
 - KCl (Sigma, CAT#P9333)
 - NP-40 (Sigma, CAT#NP40)
+- 5M NaCl (Thermo Scientific, CAT#AM9760G)
+- 1M TrisCl, pH 7.5 (Thermo Scientific, CAT#15567027)
 - TURBO DNase, 2U/uL (Thermo Fisher, CAT#AM2238)
+- Tween20, 50% solution (Thermo Fisher, CAT#003005)
 - Cycloheximide (Sigma, CAT#C7698)
 - Deoxycholate (DOC) (Sigma, CAT#D6750)
+- Dynabeads, protein G (Thermo Scientific, CAT#10003D)
 - 20% SDS (Thermo Scientific, CAT#BP1311)
 - cOmplete protease inhibitor tablets, EDTA free (Sigma, CAT#11836170001)
 - Dithiothreitol (Bio-Rad, CAT#1610611)
 - Chloroacetamide (Sigma, CAT#C0267)
-- Benzonase nuclease, 25U/uL (Sigma, CAT#70664-3)
+- Benzonase nuclease, 25U/uL (Sigma, CAT#70664-10KUN)
 - RNase A, 10mg/mL (Thermo Scientific, CAT#EN0531)
 - Urea (Sigma, CAT#U5128)
-- Clean water (Thermo Scientific, CAT#10977023)
-- Quick RNA Micoprep Kit (Zymo Research, CAT#R1050)
+- RiboLock RNase inhibitor (Thermo Scientific, CAT#EO0382)
+- Nuclease-free water (Thermo Scientific, CAT#10977023)
+- Direct-Zol RNA Kit (Zymo Research, CAT#R2061)
 - Trypsin/rLysC mix (Promega, CAT#V5071)
 - Thermomixer with 2mL tube block (Eppendorf)
 - Thermoblock set to >95C (multiple vendors)
-- Cell scrapers (multiple vendors)
 - Magnetic rack for 1.5mL or 2.0mL tubes (I like this rack: Promega, CAT#Z5342)
 - Ethanol, absolute (whatever vendor sells this to your lab)
 - SP3 beads (Thermo Scientific, CAT#65152105050250, CAT#45152105050250)
@@ -221,7 +225,12 @@ For all the solutions described below and throughout this protocol in general, y
   - 600mM HEPES pH 8.5 (600uL of 100mM stock)
   - 8% (v/v) SDS (400uL of 20% stock)
   - 10mM DTT (6mg of powder)
-- 1X TBST (prepare using standard recipes)
+- 1X TBST (prepare fresh, recipe for 40mL)
+  - Tris-Cl pH 7.5 (800uL of 1M stock)
+  - NaCl (1.2mL of 5M stock)
+  - Tween20 (40uL of 100% stock)
+  - Water (38mL)
+  - RiboLock RNase inhibitor (8uL) 
 - 80% (v/v) ethanol (prepare fresh)
 - Buffer A - 0.1% trifluoroacetic acid (TFA) in acetonitrile
 - Buffer B - 0.1% TFA in water
@@ -235,15 +244,15 @@ For all the solutions described below and throughout this protocol in general, y
 
 ### 3.3 Protocol
 
-Prior to starting, prepare sufficient Lysis buffer A and B for all of the samples to be processed. Make sure you have a Thermoblock heated to +95C or greater. Pre-chill the ultracentrifuge and a benchtop centrifuge to +6C. Weigh out the CAA and Urea powders into tubes, but don't reconstitute until just before you will use them. Prepare 6 tubes for each sample to be processed (one for RNA - 1.5mL tube, one for protein - 2mL tube, one for IP - 1.5mL tube, and 2 for polysomes - 1.5mL tubes). 
+Prior to starting, prepare sufficient Lysis buffer A and B for all of the samples to be processed. Make sure you have a Thermoblock heated to +95C or greater. Pre-chill the ultracentrifuge and a benchtop centrifuge to +6C. Weigh out the CAA and Urea powders into tubes, but don't reconstitute until just before you will use them. Prepare 12 tubes for each sample to be processed (two for lysate - 1.5mL tube, one for RNA - 1.5mL tube, one for protein - 2mL tube, 4 for IPs - 1.5mL tubes, and 4 for polysomes - 1.5mL tubes). 
 
-1. To each protein tube, add 10uL of Nuclease mix and 75uL of Lysis buffer A. To each RNA tube, add 375uL of RNA Lysis buffer (from Zymo kit).
+1. To each protein tube, add 10uL of Nuclease mix. To each RNA tube, add 375uL of Trizol Lysis buffer (from Zymo kit).
 2. To each cell pellet harvested previously, add 400uL of Lysis buffer A and pipette mix. 
-2. Transfer 25uL of this total lysate to an RNA tube containing 375uL of RNA lysis buffer. Vortex mix and freeze at -80C.
+2. Transfer 25uL of this total lysate to an RNA tube containing 375uL of Trizol lysis buffer. Vortex mix and freeze at -80C.
 3. Transfer 75uL of this total lysate to a protein tube containing the nuclease mix and lysis buffer and pipette mix. Incubate for 10-minutes at +24C.
 4. During this incubation, transfer the total lysate to a centrifuge and spin at 5,000g for 5-minutes at +6C.
 5. After the spin, transfer the supernatant to a fresh 1.5mL tube and discard the nuclei pellet. Place on ice for now.
-6. After the protein incubation is finished, add 50uL of Lysis buffer B to the protein lysate and pipette mix. 
+6. After the protein incubation is finished, add 25uL of Lysis buffer B to the protein lysate and pipette mix. 
 7. Place the protein lysate in the pre-heated Thermoblock at +95C and incubate for 5-minutes.
 8. During this incubation, transfer 125uL of the clarified lysate to the IP tube and add 5ug of your target antibody (for an IgG, prepare a non-tag expressing line alongside, or use a small aliquot of the lysate combined from all three replicates). Incubate for 1-hour at +24C with end-over-end rotation.
 9. Remove the protein lysate from the Thermoblock and let sit at +24C for 10-minutes. Quick-spin the tubes at low speed to remove any condensation from the lid (e.g. 250g for 30 seconds).
@@ -255,11 +264,11 @@ Prior to starting, prepare sufficient Lysis buffer A and B for all of the sample
 15. Close the lid and press 'Start Vacuum'.
 16. Press 'Start' to begin the spin. Stand and watch to make sure it hits the appropriate speed and that everything is OK.
 17. Clean the ultracentrifuge tube caps with water and place back with the BioComp unit. Proceed to the next section to fractionate your sucrose gradients after the spin has finished.
-18. Going back to the protain prep, reconstitute your CAA powder in 500uL of HEPES pH 8.5.
+18. Going back to the protain prep, reconstitute your CAA powder in 1000uL of HEPES pH 8.5.
 19. Add 10uL of CAA to the protein lysate and vortex mix. Incubate at +24C for 30-minutes in the dark.
 20. During this incubation, prepare your Protein G beads by rinsing 25uL per sample in 800uL of TBST for a total of 3x rinses. Reconstitute the rinsed beads in 25uL of TBST per sample.
 21. To your incubated IP sample, add 25uL of rinsed protein G beads and incubate for an additional 1-hour at +24C with end-over-end rotation.
-22. Going back to the protein prep, reconstitute your DTT in 100mM HEPES pH 8.5, and add 10uL to each tube of protein lysate and vortex mix. At this point you can freeze your protein samples at -80C indefinitely, or proceed with clean-up and disgestion as below.
+22. Going back to the protein prep, reconstitute your DTT in 100mM HEPES pH 8.5, and add 10uL to each tube of protein lysate and vortex mix. At this point you can freeze your protein samples at -80C indefinitely, use them directly in a Western blot (need to add loading buffer), or proceed with clean-up and disgestion as below.
 
 For IP preparation:
 
@@ -320,7 +329,7 @@ Use only RNase-free reagents.
 
 ### 4.1 Reagents and materials
 
-- 96-well plate (any 96-well plate with large wells is suitable, not a PCR plate)
+- 96-well plate (many are suitable, I like Sigma, CAT#CLS3365)
 - RNA clean water (Thermo Fisher, CAT#10977023)
 - Absolute ethanol (multiple vendors)
 - Ultra-clear tubes, 11x60mm, 4mL (Beckman, CAT#344062)
@@ -337,7 +346,7 @@ Use only RNase-free reagents.
 
 ### 4.3 Protocol
 
-1. When the ultracentrifuge is approximately 30-minutes from finished, turn on the laptop attached to the BioComp unit and load into Windows. Plug in the USB for the BioComp unit to the laptop.
+1. When the ultracentrifuge is approximately 15-minutes from finished, turn on the laptop attached to the BioComp unit and load into Windows. Plug in the USB for the BioComp unit to the laptop.
 2. Turn on the BioComp unit and the Gilson fraction collector attached to it.
 3. On the BioComp unit, press 'SCAN'.
 4. Open the Triax software on the laptop (shortcut is on the desktop). It will give an error about a warmup object, just ignore this and hit OK.
@@ -374,5 +383,6 @@ Use only RNase-free reagents.
 39. Add 20mL of 70% ethanol to the reservoir and use the 'Rinse' key to flush it through the BioComp unit.
 40. Add 30mL of 20% ethanol to the reservoir and use the 'Rinse' key to flush 10mL of it through the BioComp unit. There should now be 20mL remaining for storage.
 41. Turn the BioComp unit and Gilson fraction collector off. Turn off the laptop and unplug the USB.
+42. The RNA from the sucrose fractions can be directly extracted using the Trizol reagent from the Zymo kit.
 
 <hr style="height:6pt; visibility:hidden;" />
