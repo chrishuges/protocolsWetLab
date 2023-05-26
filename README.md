@@ -22,6 +22,7 @@ Always try to use the most recent versions of protocols to get the most up-to-da
   - [Total proteome analysis by mass spectrometry](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToProteomics/totalProteomeAnalysisByMassSpectrometry.md)
   - [Dual whole transcriptome and proteome analysis](https://github.com/chrishuges/protocolsWetLab/blob/master/relatedToProteomics/dualRnaAndProteomeAnalysisByMassSpectrometry.md)
   - [FFPE tissue proteome analysis](https://github.com/chrishuges/protocolsWetLab/blob/master/relatedToProteomics/ffpeTissueProteomeAnalysisByMassSpectrometry.md)
+  - [Extracellular vesicle proteome analysis](https://github.com/chrishuges/protocolsWetLab/blob/master/relatedToProteomics/evProteomeAnalysisByMassSpectrometry.md)
 - [Related to Next Generation Sequencing](https://github.com/chrishuges/wetLabProtocols/tree/master/relatedToNextGenSequencing)
   - [Preparing homemade SPRI/Ampure beads](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/preparingSpriBeads.md)
   - [RNA profiling from total polysomes](https://github.com/chrishuges/wetLabProtocols/blob/master/relatedToNextGenSequencing/polysomeProfilingRna.md)
