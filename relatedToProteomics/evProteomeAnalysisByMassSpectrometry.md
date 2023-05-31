@@ -127,8 +127,8 @@ If you are not interested in RNA, you can use 150uL of Lysis Buffer A directly i
 15. Discard the supernatant from each tube and add 800uL of 80% ethanol. Pipette mix to reconstitute the beads.
 16. Centrifuge the tubes at 5,000g for 5-minutes and discard the supernatant. Using a P200 or P20 micropipette, make sure you have removed as much leftover liquid from the rinse as possible from the tubes.
 17. Add 100uL of the prepared trypsin/urea mix to each tube. Do not attempt to mix, vortex, or pipette.
-18. Transfer the tubes to a shaking Thermomixer set at +24C and 1,000rpm, and digest for 2-4 hours.
-19. Add 300uL of 100mM TrisCl pH 7.5 to each tube and place back in the Thermomixer and incubate overnight at +24C and 1,000rpm mixing.
+18. Transfer the tubes to a shaking Thermomixer set at +30C and 1,000rpm, and digest for 2-4 hours.
+19. Add 300uL of 100mM TrisCl pH 7.5 to each tube and place back in the Thermomixer and incubate overnight at +30C and 1,000rpm mixing.
 20. The next day, spin the tubes at 12,000g for 2-minutes and then place on a magnetic rack.
 21. Clean up your sample using a Strata-X SPE plate:
     1. Add 200uL of Buffer A to the SPE plate wells and centrifuge at 250g for 3-minutes. Empty the collection plate to the waste.

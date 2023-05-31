@@ -277,7 +277,7 @@ For IP preparation:
 3. Transfer 50uL of the IP to a fresh tube and add 5uL of proteinase K and incubate at +55C for 10-minutes.
 4. To the remaining IP, add 2.5uL of RNaseA and 2.5uL of benzonase and incubate at room temperature for 20-minutes.
 5. For the RNA IP, place the samples on the magnetic rack and recover the supernatant to a fresh 1.5mL tube and add 350uL of RNA lysis buffer (Zymo kit) and store at -80C until purification.
-6. For the protein IP, rinse the IP beads 3x with TBST and reconstitute in 75uL of Lysis buffer A. 
+6. For the protein IP, rinse the IP beads 3x with TBST and reconstitute in 75uL of Lysis buffer A.
 7. Add 25uL of Lysis buffer B and incubate at +55C for 10-minutes. 
 8. Place samples on a magnetic rack and recover the supernatant to a fresh 2mL tube. Store at -80C until purification.  
 
@@ -300,8 +300,8 @@ For protein preparation:
 6. Discard the supernatant from each tube and add 800uL of 80% ethanol. Gently shake the tube to mix.
 7. Centrifuge the tubes at 5,000g for 5-minutes and discard the supernatant. Using a P200 micropipette, make sure you have removed as much liquid as possible from the tubes.
 8. Add 100uL of the prepared trypsin/urea mix to each tube. Do not attempt to mix, vortex, or pipette.
-9. Transfer the tubes to a shaking Thermomixer set at +24C and 1,000rpm, and digest for 2-4 hours.
-10. Add 300uL of 100mM HEPES pH 8 to each tube and place back in the Thermomixer and incubate overnight at +24C and 1,000rpm mixing.
+9. Transfer the tubes to a shaking Thermomixer set at +30C and 1,000rpm, and digest for 2-4 hours.
+10. Add 300uL of 100mM HEPES pH 8 to each tube and place back in the Thermomixer and incubate overnight at +30C and 1,000rpm mixing.
 11. The next day, spin the tubes at 12,000g for 2-minutes. Add 8uL of acetonitrile to each tube and vortex mix.
 12. Centrifuge the tubes again at 12,000g for 2-minutes, and then place on a magnetic rack.
 13. Clean up your sample using a SlitPlate:
